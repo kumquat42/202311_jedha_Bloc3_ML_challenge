@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:officeooo="http://openoffice.org/2009/office" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:smil="urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rpt="http://openoffice.org/2005/report" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:xforms="http://www.w3.org/2002/xforms" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.graphics">
- <office:meta><dc:date>2023-11-17T17:55:22.897521961</dc:date><meta:editing-duration>PT5H49M57S</meta:editing-duration><meta:editing-cycles>4</meta:editing-cycles><meta:generator>LibreOffice/7.3.7.2$Linux_X86_64 LibreOffice_project/30$Build-2</meta:generator><meta:document-statistic meta:object-count="6"/></office:meta>
+ <office:meta><dc:date>2023-11-19T16:34:25.816004771</dc:date><meta:editing-duration>PT6H58M19S</meta:editing-duration><meta:editing-cycles>7</meta:editing-cycles><meta:generator>LibreOffice/7.3.7.2$Linux_X86_64 LibreOffice_project/30$Build-2</meta:generator><meta:document-statistic meta:object-count="12"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="VisibleAreaTop" config:type="int">-189</config:config-item>
-   <config:config-item config:name="VisibleAreaLeft" config:type="int">472</config:config-item>
-   <config:config-item config:name="VisibleAreaWidth" config:type="int">24474</config:config-item>
-   <config:config-item config:name="VisibleAreaHeight" config:type="int">13686</config:config-item>
+   <config:config-item config:name="VisibleAreaTop" config:type="int">3196</config:config-item>
+   <config:config-item config:name="VisibleAreaLeft" config:type="int">1159</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">23099</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">12917</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
@@ -35,10 +35,10 @@
      <config:config-item config:name="IsClickChangeRotation" config:type="boolean">true</config:config-item>
      <config:config-item config:name="SlidesPerRow" config:type="short">4</config:config-item>
      <config:config-item config:name="EditMode" config:type="int">0</config:config-item>
-     <config:config-item config:name="VisibleAreaTop" config:type="int">-189</config:config-item>
-     <config:config-item config:name="VisibleAreaLeft" config:type="int">472</config:config-item>
-     <config:config-item config:name="VisibleAreaWidth" config:type="int">24475</config:config-item>
-     <config:config-item config:name="VisibleAreaHeight" config:type="int">13687</config:config-item>
+     <config:config-item config:name="VisibleAreaTop" config:type="int">3196</config:config-item>
+     <config:config-item config:name="VisibleAreaLeft" config:type="int">1159</config:config-item>
+     <config:config-item config:name="VisibleAreaWidth" config:type="int">23100</config:config-item>
+     <config:config-item config:name="VisibleAreaHeight" config:type="int">12918</config:config-item>
      <config:config-item config:name="GridCoarseWidth" config:type="int">1000</config:config-item>
      <config:config-item config:name="GridCoarseHeight" config:type="int">1000</config:config-item>
      <config:config-item config:name="GridFineWidth" config:type="int">250</config:config-item>
@@ -295,7 +295,7 @@
    <style:paragraph-properties style:writing-mode="lr-tb"/>
   </style:style>
   <style:style style:name="gr3" style:family="graphic" style:parent-style-name="standard">
-   <style:graphic-properties draw:stroke="none" draw:fill="none" fo:min-height="6.699cm"/>
+   <style:graphic-properties draw:stroke="none" draw:fill="none" fo:min-height="10.639cm"/>
    <style:paragraph-properties style:writing-mode="lr-tb"/>
   </style:style>
   <style:style style:name="gr4" style:family="graphic" style:parent-style-name="standard">
@@ -303,7 +303,15 @@
    <style:paragraph-properties style:writing-mode="lr-tb"/>
   </style:style>
   <style:style style:name="gr5" style:family="graphic" style:parent-style-name="standard">
-   <style:graphic-properties draw:stroke="none" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" draw:textarea-horizontal-align="left" draw:auto-grow-height="true" draw:auto-grow-width="true" fo:min-height="0cm" fo:min-width="0cm"/>
+   <style:graphic-properties draw:stroke="none" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" draw:textarea-horizontal-align="left" draw:auto-grow-height="true" draw:auto-grow-width="true" fo:min-height="2.356cm" fo:min-width="11.733cm"/>
+   <style:paragraph-properties style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="gr6" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" fo:min-height="4.389cm"/>
+   <style:paragraph-properties style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="gr7" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" fo:min-height="0.824cm"/>
    <style:paragraph-properties style:writing-mode="lr-tb"/>
   </style:style>
   <style:style style:name="P1" style:family="paragraph">
@@ -326,7 +334,10 @@
    <style:paragraph-properties style:writing-mode="lr-tb"/>
   </style:style>
   <style:style style:name="P6" style:family="paragraph">
-   <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-indent="0cm"/>
+  </style:style>
+  <style:style style:name="P7" style:family="paragraph">
+   <loext:graphic-properties draw:fill="none"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
    <style:text-properties fo:font-size="10pt" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
@@ -339,6 +350,12 @@
   </style:style>
   <style:style style:name="T4" style:family="text">
    <style:text-properties fo:font-size="10pt" fo:font-weight="normal" style:font-size-asian="10pt" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="T5" style:family="text">
+   <style:text-properties fo:font-size="10.5pt" fo:font-weight="bold" style:font-size-asian="10.5pt" style:font-weight-asian="bold" style:font-size-complex="10.5pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T6" style:family="text">
+   <style:text-properties fo:font-size="10.5pt" style:font-size-asian="10.5pt" style:font-size-complex="10.5pt"/>
   </style:style>
   <text:list-style style:name="L1">
    <text:list-level-style-bullet text:level="1" text:bullet-char="●">
@@ -434,19 +451,28 @@
       <text:p text:style-name="P1"><text:span text:style-name="T3">DONE</text:span></text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame draw:style-name="gr3" draw:text-style-name="P4" draw:layer="layout" svg:width="8cm" svg:height="6.949cm" svg:x="1.5cm" svg:y="3.279cm">
+    <draw:frame draw:style-name="gr3" draw:text-style-name="P4" draw:layer="layout" svg:width="8cm" svg:height="10.889cm" svg:x="1.5cm" svg:y="3.279cm">
      <draw:text-box>
-      <text:p><text:span text:style-name="T2">Basic description :</text:span></text:p>
+      <text:p><text:span text:style-name="T4">Basic description :</text:span></text:p>
+      <text:p><text:span text:style-name="T4"/></text:p>
+      <text:p><text:span text:style-name="T4">6 colonnes  et 284580 lignes</text:span></text:p>
+      <text:p><text:span text:style-name="T4"/></text:p>
+      <text:p><text:span text:style-name="T4">[&apos;country&apos;, &apos;age&apos;, &apos;new_user&apos;, &apos;source&apos;, </text:span><text:span text:style-name="T4">&apos;total_pages_visited&apos;,</text:span></text:p>
+      <text:p><text:span text:style-name="T4"><text:s text:c="7"/></text:span><text:span text:style-name="T4">&apos;converted&apos;]</text:span></text:p>
+      <text:p><text:span text:style-name="T4"/></text:p>
+      <text:p><text:span text:style-name="T4">Super clean, no NaN</text:span></text:p>
+      <text:p><text:span text:style-name="T4"/></text:p>
+      <text:p><text:span text:style-name="T4">4 cat en country, source = 3 cat, new_user = 2 </text:span><text:span text:style-name="T4">cat 0/1</text:span></text:p>
+      <text:p><text:span text:style-name="T4">Converted = Target 0/1</text:span></text:p>
+      <text:p><text:span text:style-name="T4"/></text:p>
+      <text:p><text:span text:style-name="T4">EDA, Preprocessing</text:span></text:p>
+      <text:p><text:span text:style-name="T4"/></text:p>
+      <text:p><text:span text:style-name="T4">new_user transformé en cat.</text:span></text:p>
+      <text:p><text:span text:style-name="T4">Norm pour les num values,</text:span></text:p>
+      <text:p><text:span text:style-name="T4">OneHot encoder pour les cat,</text:span></text:p>
+      <text:p><text:span text:style-name="T2">Garder en tete qu’il y a 2 outsiders en age : </text:span><text:span text:style-name="T2">110 et 120 ans.</text:span></text:p>
       <text:p><text:span text:style-name="T2"/></text:p>
-      <text:p><text:span text:style-name="T2">6 colonnes  et 284580 lignes</text:span></text:p>
       <text:p><text:span text:style-name="T2"/></text:p>
-      <text:p><text:span text:style-name="T2">[&apos;country&apos;, &apos;age&apos;, &apos;new_user&apos;, &apos;source&apos;, &apos;total_pages_visited&apos;,</text:span></text:p>
-      <text:p><text:span text:style-name="T2"><text:s text:c="7"/></text:span><text:span text:style-name="T2">&apos;converted&apos;]</text:span></text:p>
-      <text:p><text:span text:style-name="T2"/></text:p>
-      <text:p><text:span text:style-name="T2">Super clean, no NaN</text:span></text:p>
-      <text:p><text:span text:style-name="T2"/></text:p>
-      <text:p><text:span text:style-name="T2">4 cat en country, source = 3 cat, new_user = 2 cat 0/1</text:span></text:p>
-      <text:p><text:span text:style-name="T2">Converted = Target 0/1</text:span></text:p>
       <text:p><text:span text:style-name="T2"/></text:p>
       <text:p><text:span text:style-name="T4"/></text:p>
       <text:p><text:span text:style-name="T4"/></text:p>
@@ -458,11 +484,9 @@
       <text:p text:style-name="P1"><text:span text:style-name="T3">TO DO</text:span></text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame draw:style-name="gr4" draw:text-style-name="P5" draw:layer="layout" svg:width="14.633cm" svg:height="5.939cm" svg:x="12.617cm" svg:y="3.561cm">
+    <draw:frame draw:style-name="gr4" draw:text-style-name="P5" draw:layer="layout" svg:width="14.633cm" svg:height="5.939cm" svg:x="12.5cm" svg:y="3.061cm">
      <draw:text-box>
-      <text:p>Transformer en cat le new_user.</text:p>
       <text:p/>
-      <text:p>Part 1 : Preprocessings, EDA</text:p>
       <text:p/>
       <text:p>Improve your model&apos;s f1-score on your test set </text:p>
       <text:p><text:s/>feature engineering, feature selection,</text:p>
@@ -470,9 +494,53 @@
       <text:p>hyperparameter optimization by grid search, etc...)</text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame draw:style-name="gr5" draw:text-style-name="P6" draw:layer="layout" svg:width="5.298cm" svg:height="0.962cm" svg:x="13cm" svg:y="10.25cm">
+    <draw:frame draw:style-name="gr5" draw:text-style-name="P5" draw:layer="layout" svg:width="12.233cm" svg:height="2.606cm" svg:x="1.75cm" svg:y="12.343cm">
      <draw:text-box>
-      <text:p>What is F1-score</text:p>
+      <text:p><text:span text:style-name="T5">What is F1-</text:span><text:span text:style-name="T5">score </text:span><text:span text:style-name="T6">:</text:span></text:p>
+      <text:p><text:span text:style-name="T6">En gros, ça </text:span><text:span text:style-name="T6">prend en </text:span><text:span text:style-name="T6">compte le recall </text:span><text:span text:style-name="T6">et le…</text:span></text:p>
+      <text:p><text:span text:style-name="T6">Et c’est un </text:span><text:span text:style-name="T6">score qui varie </text:span><text:span text:style-name="T6">entre 0 et 1.</text:span></text:p>
+      <text:p><text:span text:style-name="T6">Ca revient au </text:span><text:span text:style-name="T6">nombre de True </text:span><text:span text:style-name="T6">Positif pondérés </text:span><text:span text:style-name="T6">par les erreurs </text:span><text:span text:style-name="T6">FP et FN.</text:span></text:p>
+      <text:p/>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame draw:style-name="gr2" draw:text-style-name="P3" draw:layer="layout" svg:width="3.25cm" svg:height="1.04cm" svg:x="14cm" svg:y="1.96cm">
+     <draw:text-box>
+      <text:p text:style-name="P1"><text:span text:style-name="T3">TO DO</text:span></text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame draw:style-name="gr2" draw:text-style-name="P3" draw:layer="layout" svg:width="3.25cm" svg:height="1.04cm" svg:x="14cm" svg:y="1.96cm">
+     <draw:text-box>
+      <text:p text:style-name="P1"><text:span text:style-name="T3">TO DO</text:span></text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame draw:style-name="gr6" draw:text-style-name="P4" draw:layer="layout" svg:width="8cm" svg:height="6.555cm" svg:x="1.75cm" svg:y="16cm">
+     <draw:text-box>
+      <text:p><text:span text:style-name="T2">First prediction : </text:span><text:span text:style-name="T2">Logistic </text:span><text:span text:style-name="T2">regression.</text:span></text:p>
+      <text:p><text:span text:style-name="T2"/></text:p>
+      <text:p text:style-name="P6"><text:span text:style-name="T2">Feature </text:span><text:span text:style-name="T2">importance:</text:span></text:p>
+      <text:p text:style-name="P6"><text:span text:style-name="T4"><text:s/></text:span><text:span text:style-name="T4">Most important </text:span><text:span text:style-name="T4">features seems </text:span><text:span text:style-name="T4">to be The number </text:span><text:span text:style-name="T4">of pages visited </text:span><text:span text:style-name="T4">(positive </text:span><text:span text:style-name="T4">correlation) and </text:span><text:span text:style-name="T4">the country, the </text:span><text:span text:style-name="T4">new user variable</text:span></text:p>
+      <text:p><text:span text:style-name="T2"/></text:p>
+      <text:p><text:span text:style-name="T2">Scores</text:span></text:p>
+      <text:p><text:span text:style-name="T4">Accuracy good </text:span><text:span text:style-name="T4">for both. No </text:span><text:span text:style-name="T4">overfitting.</text:span></text:p>
+      <text:p><text:span text:style-name="T4">But F1 score in </text:span><text:span text:style-name="T4">similar for both, </text:span><text:span text:style-name="T4">but it is 0.75.</text:span></text:p>
+      <text:p><text:span text:style-name="T2"/></text:p>
+      <text:p><text:span text:style-name="T2">Confusion </text:span><text:span text:style-name="T2">Matrix</text:span><text:span text:style-name="T4"> shows : </text:span><text:span text:style-name="T4">problems with the </text:span><text:span text:style-name="T4">positives labels : </text:span><text:span text:style-name="T4">30 % have been </text:span><text:span text:style-name="T4">predicted as </text:span><text:span text:style-name="T4">negative.</text:span></text:p>
+      <text:p><text:span text:style-name="T4">Only 15 % of </text:span><text:span text:style-name="T4">prdicted </text:span><text:span text:style-name="T4">negatives should </text:span><text:span text:style-name="T4">be actually be </text:span><text:span text:style-name="T4">positives.</text:span></text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="7.733cm" svg:height="1.074cm" svg:x="13.25cm" svg:y="10.5cm">
+     <draw:text-box>
+      <text:p><text:span text:style-name="T6">Tester sans les 110 ans, 120 ans</text:span></text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="7.733cm" svg:height="1.074cm" svg:x="13.267cm" svg:y="11.25cm">
+     <draw:text-box>
+      <text:p><text:span text:style-name="T6">Comment réduire les faux négtifs ?</text:span></text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="7.733cm" svg:height="1.074cm" svg:x="13.5cm" svg:y="12.176cm">
+     <draw:text-box>
+      <text:p><text:span text:style-name="T6">Faire une fonction avec la Grid search</text:span></text:p>
      </draw:text-box>
     </draw:frame>
    </draw:page>
