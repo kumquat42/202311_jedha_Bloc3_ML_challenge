@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:officeooo="http://openoffice.org/2009/office" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:smil="urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rpt="http://openoffice.org/2005/report" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:xforms="http://www.w3.org/2002/xforms" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.graphics">
- <office:meta><dc:date>2023-11-21T18:48:04.081867228</dc:date><meta:editing-duration>PT6H58M59S</meta:editing-duration><meta:editing-cycles>8</meta:editing-cycles><meta:generator>LibreOffice/7.3.7.2$Linux_X86_64 LibreOffice_project/30$Build-2</meta:generator><meta:document-statistic meta:object-count="12"/></office:meta>
+ <office:meta><dc:date>2023-11-23T13:19:28.655623389</dc:date><meta:editing-duration>PT6H59M46S</meta:editing-duration><meta:editing-cycles>9</meta:editing-cycles><meta:generator>LibreOffice/7.3.7.2$Linux_X86_64 LibreOffice_project/30$Build-2</meta:generator><meta:document-statistic meta:object-count="12"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="VisibleAreaTop" config:type="int">3196</config:config-item>
-   <config:config-item config:name="VisibleAreaLeft" config:type="int">1159</config:config-item>
+   <config:config-item config:name="VisibleAreaTop" config:type="int">4297</config:config-item>
+   <config:config-item config:name="VisibleAreaLeft" config:type="int">3512</config:config-item>
    <config:config-item config:name="VisibleAreaWidth" config:type="int">23099</config:config-item>
    <config:config-item config:name="VisibleAreaHeight" config:type="int">12917</config:config-item>
    <config:config-item-map-indexed config:name="Views">
@@ -35,10 +35,10 @@
      <config:config-item config:name="IsClickChangeRotation" config:type="boolean">true</config:config-item>
      <config:config-item config:name="SlidesPerRow" config:type="short">4</config:config-item>
      <config:config-item config:name="EditMode" config:type="int">0</config:config-item>
-     <config:config-item config:name="VisibleAreaTop" config:type="int">3369</config:config-item>
-     <config:config-item config:name="VisibleAreaLeft" config:type="int">1489</config:config-item>
-     <config:config-item config:name="VisibleAreaWidth" config:type="int">22469</config:config-item>
-     <config:config-item config:name="VisibleAreaHeight" config:type="int">12565</config:config-item>
+     <config:config-item config:name="VisibleAreaTop" config:type="int">4297</config:config-item>
+     <config:config-item config:name="VisibleAreaLeft" config:type="int">3512</config:config-item>
+     <config:config-item config:name="VisibleAreaWidth" config:type="int">18490</config:config-item>
+     <config:config-item config:name="VisibleAreaHeight" config:type="int">13936</config:config-item>
      <config:config-item config:name="GridCoarseWidth" config:type="int">1000</config:config-item>
      <config:config-item config:name="GridCoarseHeight" config:type="int">1000</config:config-item>
      <config:config-item config:name="GridFineWidth" config:type="int">250</config:config-item>
@@ -94,9 +94,9 @@
    <config:config-item config:name="ParagraphSummation" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrintQuality" config:type="int">0</config:config-item>
    <config:config-item config:name="PrinterIndependentLayout" config:type="string">low-resolution</config:config-item>
-   <config:config-item config:name="PrinterName" config:type="string">Generic Printer</config:config-item>
+   <config:config-item config:name="PrinterName" config:type="string">Brother_MFC_J5335DW_Fax_MacBook_Pro_de_Aliz</config:config-item>
    <config:config-item config:name="PrinterPaperFromSetup" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrinterSetup" config:type="base64Binary">oAH+/0dlbmVyaWMgUHJpbnRlcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU0dFTlBSVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAMAwQAAAAAAAAAEAAhSAAAEdAAASm9iRGF0YSAxCnByaW50ZXI9R2VuZXJpYyBQcmludGVyCm9yaWVudGF0aW9uPVBvcnRyYWl0CmNvcGllcz0xCmNvbGxhdGU9ZmFsc2UKbWFyZ2luYWRqdXN0bWVudD0wLDAsMCwwCmNvbG9yZGVwdGg9MjQKcHNsZXZlbD0wCnBkZmRldmljZT0xCmNvbG9yZGV2aWNlPTAKUFBEQ29udGV4dERhdGEKUGFnZVNpemU6QTQARHVwbGV4Ok5vbmUAABIAQ09NUEFUX0RVUExFWF9NT0RFDwBEdXBsZXhNb2RlOjpPZmY=</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary">sAH+/0Jyb3RoZXJfTUZDX0o1MzM1RFdfRmF4X01hY0Jvb2tfUHJvX2RlX0FsaXoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ1VQUzpCcm90aGVyX01GQ19KNTMzNURXX0ZheF9NYQAWAAMA0QAAAAAAAAAEAAhSAAAEdAAASm9iRGF0YSAxCnByaW50ZXI9QnJvdGhlcl9NRkNfSjUzMzVEV19GYXhfTWFjQm9va19Qcm9fZGVfQWxpegpvcmllbnRhdGlvbj1Qb3J0cmFpdApjb3BpZXM9MQpjb2xsYXRlPWZhbHNlCm1hcmdpbmFkanVzdG1lbnQ9MCwwLDAsMApjb2xvcmRlcHRoPTI0CnBzbGV2ZWw9MApwZGZkZXZpY2U9MQpjb2xvcmRldmljZT0wClBQRENvbnRleHREYXRhClBhZ2VTaXplOkE0AAASAENPTVBBVF9EVVBMRVhfTU9ERQ8ARHVwbGV4TW9kZTo6T2Zm</config:config-item>
    <config:config-item config:name="SaveThumbnail" config:type="boolean">true</config:config-item>
    <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
    <config:config-item config:name="ScaleDenominator" config:type="int">1</config:config-item>
@@ -129,7 +129,7 @@
   <draw:marker draw:name="Arrow" svg:viewBox="0 0 20 30" svg:d="M10 0l-10 30h20z"/>
   <style:default-style style:family="graphic">
    <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap"/>
-   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:punctuation-wrap="simple" style:line-break="strict" style:font-independent-line-spacing="false">
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:punctuation-wrap="simple" style:line-break="strict" style:writing-mode="lr-tb" style:font-independent-line-spacing="false">
     <style:tab-stops/>
    </style:paragraph-properties>
    <style:text-properties style:use-window-font-color="true" loext:opacity="0%" style:font-name="Liberation Serif" fo:font-size="24pt" fo:language="fr" fo:country="FR" style:font-name-asian="DejaVu Sans" style:font-size-asian="24pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="DejaVu Sans" style:font-size-complex="24pt" style:language-complex="hi" style:country-complex="IN"/>
@@ -314,6 +314,10 @@
    <style:graphic-properties draw:stroke="none" draw:fill="none" fo:min-height="0.824cm"/>
    <style:paragraph-properties style:writing-mode="lr-tb"/>
   </style:style>
+  <style:style style:name="gr8" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" fo:min-height="2.467cm"/>
+   <style:paragraph-properties style:writing-mode="lr-tb"/>
+  </style:style>
   <style:style style:name="P1" style:family="paragraph">
    <style:paragraph-properties fo:margin-top="0.42cm" fo:margin-bottom="0.35cm"/>
   </style:style>
@@ -450,24 +454,24 @@
     </draw:frame>
     <draw:frame draw:style-name="gr3" draw:text-style-name="P4" draw:layer="layout" svg:width="8cm" svg:height="10.889cm" svg:x="1.5cm" svg:y="3.279cm">
      <draw:text-box>
-      <text:p><text:span text:style-name="T4">Basic description :</text:span></text:p>
+      <text:p><text:span text:style-name="T4">Basic </text:span><text:span text:style-name="T4">description :</text:span></text:p>
       <text:p><text:span text:style-name="T4"/></text:p>
-      <text:p><text:span text:style-name="T4">6 colonnes  et 284580 lignes</text:span></text:p>
+      <text:p><text:span text:style-name="T4">6 colonnes  et </text:span><text:span text:style-name="T4">284580 lignes</text:span></text:p>
       <text:p><text:span text:style-name="T4"/></text:p>
-      <text:p><text:span text:style-name="T4">[&apos;country&apos;, &apos;age&apos;, &apos;new_user&apos;, &apos;source&apos;, &apos;total_pages_visited&apos;,</text:span></text:p>
+      <text:p><text:span text:style-name="T4">[&apos;country&apos;, &apos;age&apos;, </text:span><text:span text:style-name="T4">&apos;new_user&apos;, </text:span><text:span text:style-name="T4">&apos;source&apos;, </text:span><text:span text:style-name="T4">&apos;total_pages_visit</text:span><text:span text:style-name="T4">ed&apos;,</text:span></text:p>
       <text:p><text:span text:style-name="T4"><text:s text:c="7"/></text:span><text:span text:style-name="T4">&apos;converted&apos;]</text:span></text:p>
       <text:p><text:span text:style-name="T4"/></text:p>
-      <text:p><text:span text:style-name="T4">Super clean, no NaN</text:span></text:p>
+      <text:p><text:span text:style-name="T4">Super clean, no </text:span><text:span text:style-name="T4">NaN</text:span></text:p>
       <text:p><text:span text:style-name="T4"/></text:p>
-      <text:p><text:span text:style-name="T4">4 cat en country, source = 3 cat, new_user = 2 cat 0/1</text:span></text:p>
-      <text:p><text:span text:style-name="T4">Converted = Target 0/1</text:span></text:p>
+      <text:p><text:span text:style-name="T4">4 cat en country, </text:span><text:span text:style-name="T4">source = 3 cat, </text:span><text:span text:style-name="T4">new_user = 2 cat </text:span><text:span text:style-name="T4">0/1</text:span></text:p>
+      <text:p><text:span text:style-name="T4">Converted = </text:span><text:span text:style-name="T4">Target 0/1</text:span></text:p>
       <text:p><text:span text:style-name="T4"/></text:p>
-      <text:p><text:span text:style-name="T4">EDA, Preprocessing</text:span></text:p>
+      <text:p><text:span text:style-name="T4">EDA, </text:span><text:span text:style-name="T4">Preprocessing</text:span></text:p>
       <text:p><text:span text:style-name="T4"/></text:p>
-      <text:p><text:span text:style-name="T4">new_user transformé en cat.</text:span></text:p>
-      <text:p><text:span text:style-name="T4">Norm pour les num values,</text:span></text:p>
-      <text:p><text:span text:style-name="T4">OneHot encoder pour les cat,</text:span></text:p>
-      <text:p><text:span text:style-name="T2">Garder en tete qu’il y a 2 outsiders en age : 110 et 120 ans.</text:span></text:p>
+      <text:p><text:span text:style-name="T4">new_user </text:span><text:span text:style-name="T4">transformé en </text:span><text:span text:style-name="T4">cat.</text:span></text:p>
+      <text:p><text:span text:style-name="T4">Norm pour les </text:span><text:span text:style-name="T4">num values,</text:span></text:p>
+      <text:p><text:span text:style-name="T4">OneHot encoder </text:span><text:span text:style-name="T4">pour les cat,</text:span></text:p>
+      <text:p><text:span text:style-name="T2">Garder en tete </text:span><text:span text:style-name="T2">qu’il y a 2 </text:span><text:span text:style-name="T2">outsiders en </text:span><text:span text:style-name="T2">age : 110 et 120 </text:span><text:span text:style-name="T2">ans.</text:span></text:p>
       <text:p><text:span text:style-name="T2"/></text:p>
       <text:p><text:span text:style-name="T2"/></text:p>
       <text:p><text:span text:style-name="T2"/></text:p>
@@ -493,10 +497,10 @@
     </draw:frame>
     <draw:frame draw:style-name="gr5" draw:text-style-name="P5" draw:layer="layout" svg:width="12.233cm" svg:height="2.606cm" svg:x="1.75cm" svg:y="12.343cm">
      <draw:text-box>
-      <text:p><text:span text:style-name="T5">What is F1-score </text:span><text:span text:style-name="T6">:</text:span></text:p>
-      <text:p><text:span text:style-name="T6">En gros, ça prend en compte le recall et le…</text:span></text:p>
-      <text:p><text:span text:style-name="T6">Et c’est un score qui varie entre 0 et 1.</text:span></text:p>
-      <text:p><text:span text:style-name="T6">Ca revient au nombre de True Positif pondérés par les erreurs FP et FN.</text:span></text:p>
+      <text:p><text:span text:style-name="T5">What is F1-</text:span><text:span text:style-name="T5">score </text:span><text:span text:style-name="T6">:</text:span></text:p>
+      <text:p><text:span text:style-name="T6">En gros, ça </text:span><text:span text:style-name="T6">prend en </text:span><text:span text:style-name="T6">compte le recall </text:span><text:span text:style-name="T6">et le…</text:span></text:p>
+      <text:p><text:span text:style-name="T6">Et c’est un </text:span><text:span text:style-name="T6">score qui varie </text:span><text:span text:style-name="T6">entre 0 et 1.</text:span></text:p>
+      <text:p><text:span text:style-name="T6">Ca revient au </text:span><text:span text:style-name="T6">nombre de True </text:span><text:span text:style-name="T6">Positif pondérés </text:span><text:span text:style-name="T6">par les erreurs </text:span><text:span text:style-name="T6">FP et FN.</text:span></text:p>
       <text:p/>
      </draw:text-box>
     </draw:frame>
@@ -512,17 +516,17 @@
     </draw:frame>
     <draw:frame draw:style-name="gr6" draw:text-style-name="P4" draw:layer="layout" svg:width="8cm" svg:height="6.555cm" svg:x="1.75cm" svg:y="16cm">
      <draw:text-box>
-      <text:p><text:span text:style-name="T2">First prediction : Logistic regression.</text:span></text:p>
+      <text:p><text:span text:style-name="T2">First prediction : </text:span><text:span text:style-name="T2">Logistic </text:span><text:span text:style-name="T2">regression.</text:span></text:p>
       <text:p><text:span text:style-name="T2"/></text:p>
-      <text:p text:style-name="P6"><text:span text:style-name="T2">Feature importance:</text:span></text:p>
-      <text:p text:style-name="P6"><text:span text:style-name="T4"><text:s/></text:span><text:span text:style-name="T4">Most important features seems to be The number of pages visited (positive correlation) and the country, the new user variable</text:span></text:p>
+      <text:p text:style-name="P6"><text:span text:style-name="T2">Feature </text:span><text:span text:style-name="T2">importance:</text:span></text:p>
+      <text:p text:style-name="P6"><text:span text:style-name="T4"><text:s/></text:span><text:span text:style-name="T4">Most important </text:span><text:span text:style-name="T4">features seems </text:span><text:span text:style-name="T4">to be The number </text:span><text:span text:style-name="T4">of pages visited </text:span><text:span text:style-name="T4">(positive </text:span><text:span text:style-name="T4">correlation) and </text:span><text:span text:style-name="T4">the country, the </text:span><text:span text:style-name="T4">new user variable</text:span></text:p>
       <text:p><text:span text:style-name="T2"/></text:p>
       <text:p><text:span text:style-name="T2">Scores</text:span></text:p>
-      <text:p><text:span text:style-name="T4">Accuracy good for both. No overfitting.</text:span></text:p>
-      <text:p><text:span text:style-name="T4">But F1 score in similar for both, but it is 0.75.</text:span></text:p>
+      <text:p><text:span text:style-name="T4">Accuracy good </text:span><text:span text:style-name="T4">for both. No </text:span><text:span text:style-name="T4">overfitting.</text:span></text:p>
+      <text:p><text:span text:style-name="T4">But F1 score in </text:span><text:span text:style-name="T4">similar for both, </text:span><text:span text:style-name="T4">but it is 0.75.</text:span></text:p>
       <text:p><text:span text:style-name="T2"/></text:p>
-      <text:p><text:span text:style-name="T2">Confusion Matrix</text:span><text:span text:style-name="T4"> shows : problems with the positives labels : 30 % have been predicted as negative.</text:span></text:p>
-      <text:p><text:span text:style-name="T4">Only 15 % of prdicted negatives should be actually be positives.</text:span></text:p>
+      <text:p><text:span text:style-name="T2">Confusion </text:span><text:span text:style-name="T2">Matrix</text:span><text:span text:style-name="T4"> shows : </text:span><text:span text:style-name="T4">problems with the </text:span><text:span text:style-name="T4">positives labels : </text:span><text:span text:style-name="T4">30 % have been </text:span><text:span text:style-name="T4">predicted as </text:span><text:span text:style-name="T4">negative.</text:span></text:p>
+      <text:p><text:span text:style-name="T4">Only 15 % of </text:span><text:span text:style-name="T4">prdicted </text:span><text:span text:style-name="T4">negatives should </text:span><text:span text:style-name="T4">be actually be </text:span><text:span text:style-name="T4">positives.</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame draw:style-name="gr7" draw:text-style-name="P4" draw:layer="layout" svg:width="7.733cm" svg:height="1.074cm" svg:x="13.25cm" svg:y="10.5cm">
@@ -535,13 +539,19 @@
       <text:p><text:span text:style-name="T6">Comment réduire les faux négtifs ?</text:span></text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame draw:style-name="gr7" draw:text-style-name="P4" draw:layer="layout" svg:width="7.733cm" svg:height="2.717cm" svg:x="13.5cm" svg:y="12.176cm">
+    <draw:frame draw:style-name="gr8" draw:text-style-name="P4" draw:layer="layout" svg:width="7.733cm" svg:height="4.772cm" svg:x="13.5cm" svg:y="12.176cm">
      <draw:text-box>
       <text:p><text:span text:style-name="T6">Faire une fonction avec la Grid search</text:span></text:p>
       <text:p><text:span text:style-name="T6"/></text:p>
       <text:p><text:span text:style-name="T6">- reglog ok</text:span></text:p>
       <text:p><text:span text:style-name="T6"/></text:p>
-      <text:p><text:span text:style-name="T6">Feature engineering, tester les corelation (pairwize) et regarder avec une PCA </text:span></text:p>
+      <text:p><text:span text:style-name="T6">Feature engineering, </text:span></text:p>
+      <text:p><text:span text:style-name="T6">tester les corelation (pairwize) </text:span></text:p>
+      <text:p><text:span text:style-name="T6">Regarder plottree</text:span></text:p>
+      <text:p><text:span text:style-name="T6">Regarder DBScan</text:span></text:p>
+      <text:p><text:span text:style-name="T6"/></text:p>
+      <text:p><text:span text:style-name="T6">et regarder avec une PCA </text:span></text:p>
+      <text:p><text:span text:style-name="T6"/></text:p>
      </draw:text-box>
     </draw:frame>
    </draw:page>
