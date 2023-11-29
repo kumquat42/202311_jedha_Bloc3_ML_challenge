@@ -803,7 +803,7 @@ weighted avg       0.88      0.88      0.88      4709
    macro avg       0.76      0.71      0.73      2019
 weighted avg       0.85      0.86      0.85      2019
 "
-tree_simple_gs_4f_eng4_inf ,"DecisionTreeClassifier(criterion='entropy', max_depth=8)",4f_eng4_inf ,"{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': 8, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': None, 'splitter': 'best', 'percent_val': 0.3}",0.9888686656794998,0.9888190412207879,[],[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.4194153928667203,0.40485312899106,82107,154,778,317,191549,391,1774,782,"              precision    recall  f1-score   support
+tree_simple_gs_4f_eng4_inf ,"DecisionTreeClassifier(criterion='entropy', max_depth=8)",4f_eng4_inf ,"{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': 8, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': None, 'splitter': 'best', 'percent_val': 0.3}",0.9888686656794998,0.988819041220788,[],[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.4194153928667203,0.40485312899106,82107,154,778,317,191549,391,1774,782,"              precision    recall  f1-score   support
 
            0       0.99      1.00      0.99    191940
            1       0.67      0.31      0.42      2556
@@ -820,7 +820,7 @@ weighted avg       0.99      0.99      0.99    194496
    macro avg       0.83      0.64      0.70     83356
 weighted avg       0.99      0.99      0.99     83356
 "
-reglog_gs_4f_eng4_inf,LogisticRegression(),4f_eng4_inf,"{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False, 'percent_val': 0.3}",0.9886321569595261,0.9889510053265512,"[array([-0.61340356,  2.1098953 , -1.70628621,  3.51134059,  3.34511908,
+reglog_gs_4f_eng4_inf,LogisticRegression(),4f_eng4_inf,"{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False, 'percent_val': 0.3}",0.988632156959526,0.9889510053265512,"[array([-0.61340356,  2.1098953 , -1.70628621,  3.51134059,  3.34511908,
         3.00475326])]",[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.3839509612705489,0.3992172211350294,82129,132,789,306,191596,344,1867,689,"              precision    recall  f1-score   support
 
            0       0.99      1.00      0.99    191940
@@ -848,7 +848,7 @@ xg_gs2_4f_eng4_inf,"XGBClassifier(base_score=None, booster=None, callbacks=None,
               max_delta_step=None, max_depth=2, max_leaves=None,
               min_child_weight=3, missing=nan, monotone_constraints=None,
               multi_strategy=None, n_estimators=40, n_jobs=None,
-              num_parallel_tree=None, random_state=None, ...)",4f_eng4_inf,"{'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': None, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': None, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': None, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 2, 'max_leaves': None, 'min_child_weight': 3, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 40, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': None, 'reg_lambda': None, 'sampling_method': None, 'scale_pos_weight': None, 'subsample': None, 'tree_method': None, 'validate_parameters': None, 'verbosity': None, 'percent_val': 0.3}",0.9887247038499506,0.9889390085896637,[],[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.38519764507989906,0.39580602883355176,82132,129,793,302,191616,324,1869,687,"              precision    recall  f1-score   support
+              num_parallel_tree=None, random_state=None, ...)",4f_eng4_inf,"{'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': None, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': None, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': None, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 2, 'max_leaves': None, 'min_child_weight': 3, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 40, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': None, 'reg_lambda': None, 'sampling_method': None, 'scale_pos_weight': None, 'subsample': None, 'tree_method': None, 'validate_parameters': None, 'verbosity': None, 'percent_val': 0.3}",0.9887247038499506,0.9889390085896635,[],[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.385197645079899,0.3958060288335517,82132,129,793,302,191616,324,1869,687,"              precision    recall  f1-score   support
 
            0       0.99      1.00      0.99    191940
            1       0.68      0.27      0.39      2556
@@ -882,4 +882,580 @@ weighted avg       0.97      0.99      0.98    194496
     accuracy                           0.99     83356
    macro avg       0.49      0.50      0.50     83356
 weighted avg       0.97      0.99      0.98     83356
+"
+bag_tree_4f_eng3_gs,"BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50)",4f_eng3,"{'base_estimator': 'deprecated', 'bootstrap': True, 'bootstrap_features': False, 'estimator__ccp_alpha': 0.0, 'estimator__class_weight': None, 'estimator__criterion': 'gini', 'estimator__max_depth': 8, 'estimator__max_features': None, 'estimator__max_leaf_nodes': None, 'estimator__min_impurity_decrease': 0.0, 'estimator__min_samples_leaf': 10, 'estimator__min_samples_split': 2, 'estimator__min_weight_fraction_leaf': 0.0, 'estimator__random_state': None, 'estimator__splitter': 'best', 'estimator': DecisionTreeClassifier(max_depth=8, min_samples_leaf=10), 'max_features': 1.0, 'max_samples': 1.0, 'n_estimators': 50, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False, 'percent_val': 0.3}",0.986466271096252,0.9853351137348608,[],[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7693360711841205,0.7503987240829345,82240,380,872,1882,192014,766,1930,4496,"              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99    192780
+           1       0.85      0.70      0.77      6426
+
+    accuracy                           0.99    199206
+   macro avg       0.92      0.85      0.88    199206
+weighted avg       0.99      0.99      0.99    199206
+","              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99     82620
+           1       0.83      0.68      0.75      2754
+
+    accuracy                           0.99     85374
+   macro avg       0.91      0.84      0.87     85374
+weighted avg       0.98      0.99      0.98     85374
+"
+bag_tree_4f_eng3_gs,"BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50)",4f_eng3,"{'base_estimator': 'deprecated', 'bootstrap': True, 'bootstrap_features': False, 'estimator__ccp_alpha': 0.0, 'estimator__class_weight': None, 'estimator__criterion': 'gini', 'estimator__max_depth': 8, 'estimator__max_features': None, 'estimator__max_leaf_nodes': None, 'estimator__min_impurity_decrease': 0.0, 'estimator__min_samples_leaf': 10, 'estimator__min_samples_split': 2, 'estimator__min_weight_fraction_leaf': 0.0, 'estimator__random_state': None, 'estimator__splitter': 'best', 'estimator': DecisionTreeClassifier(max_depth=8, min_samples_leaf=10), 'max_features': 1.0, 'max_samples': 1.0, 'n_estimators': 50, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False, 'percent_val': 0.3}",0.9864863508127264,0.9852882610630872,[],[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7695994522423827,0.7493013972055889,82241,379,877,1877,192018,762,1930,4496,"              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99    192780
+           1       0.86      0.70      0.77      6426
+
+    accuracy                           0.99    199206
+   macro avg       0.92      0.85      0.88    199206
+weighted avg       0.99      0.99      0.99    199206
+","              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99     82620
+           1       0.83      0.68      0.75      2754
+
+    accuracy                           0.99     85374
+   macro avg       0.91      0.84      0.87     85374
+weighted avg       0.98      0.99      0.98     85374
+"
+bag_reglog_4f_eng3_gs,"BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50)",4f_eng3,"{'base_estimator': 'deprecated', 'bootstrap': True, 'bootstrap_features': False, 'estimator__C': 0.1, 'estimator__class_weight': None, 'estimator__dual': False, 'estimator__fit_intercept': True, 'estimator__intercept_scaling': 1, 'estimator__l1_ratio': None, 'estimator__max_iter': 100, 'estimator__multi_class': 'auto', 'estimator__n_jobs': None, 'estimator__penalty': 'l2', 'estimator__random_state': None, 'estimator__solver': 'lbfgs', 'estimator__tol': 0.0001, 'estimator__verbose': 0, 'estimator__warm_start': False, 'estimator': LogisticRegression(C=0.1), 'max_features': 1.0, 'max_samples': 1.0, 'n_estimators': 50, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False, 'percent_val': 0.3}",0.9862755137897452,0.985838779956427,[],[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.763331024930748,0.7568871908304846,82283,337,872,1882,192063,717,2017,4409,"              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99    192780
+           1       0.86      0.69      0.76      6426
+
+    accuracy                           0.99    199206
+   macro avg       0.92      0.84      0.88    199206
+weighted avg       0.99      0.99      0.99    199206
+","              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99     82620
+           1       0.85      0.68      0.76      2754
+
+    accuracy                           0.99     85374
+   macro avg       0.92      0.84      0.87     85374
+weighted avg       0.98      0.99      0.99     85374
+"
+bag_reglog_4f_eng3_1,"BaggingClassifier(estimator=LogisticRegression(C=1), n_estimators=50)",4f_eng3,"{'base_estimator': 'deprecated', 'bootstrap': True, 'bootstrap_features': False, 'estimator__C': 1, 'estimator__class_weight': None, 'estimator__dual': False, 'estimator__fit_intercept': True, 'estimator__intercept_scaling': 1, 'estimator__l1_ratio': None, 'estimator__max_iter': 100, 'estimator__multi_class': 'auto', 'estimator__n_jobs': None, 'estimator__penalty': 'l2', 'estimator__random_state': None, 'estimator__solver': 'lbfgs', 'estimator__tol': 0.0001, 'estimator__verbose': 0, 'estimator__warm_start': False, 'estimator': LogisticRegression(C=1), 'max_features': 1.0, 'max_samples': 1.0, 'n_estimators': 50, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False, 'percent_val': 0.3}",0.9862855536479824,0.9859207721320308,[],[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.764645072363887,0.7589249899719214,82280,340,862,1892,192036,744,1988,4438,"              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99    192780
+           1       0.86      0.69      0.76      6426
+
+    accuracy                           0.99    199206
+   macro avg       0.92      0.84      0.88    199206
+weighted avg       0.99      0.99      0.99    199206
+","              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99     82620
+           1       0.85      0.69      0.76      2754
+
+    accuracy                           0.99     85374
+   macro avg       0.92      0.84      0.88     85374
+weighted avg       0.99      0.99      0.99     85374
+"
+bag_reglog_4f_eng3_gs1,"BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=5)",4f_eng3,"{'base_estimator': 'deprecated', 'bootstrap': True, 'bootstrap_features': False, 'estimator__C': 0.1, 'estimator__class_weight': None, 'estimator__dual': False, 'estimator__fit_intercept': True, 'estimator__intercept_scaling': 1, 'estimator__l1_ratio': None, 'estimator__max_iter': 100, 'estimator__multi_class': 'auto', 'estimator__n_jobs': None, 'estimator__penalty': 'l2', 'estimator__random_state': None, 'estimator__solver': 'lbfgs', 'estimator__tol': 0.0001, 'estimator__verbose': 0, 'estimator__warm_start': False, 'estimator': LogisticRegression(C=0.1), 'max_features': 1.0, 'max_samples': 1.0, 'n_estimators': 5, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False, 'percent_val': 0.3}",0.98633073301005,0.9858036404525968,[],[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7635258358662613,0.7557436517533253,82287,333,879,1875,192087,693,2030,4396,"              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99    192780
+           1       0.86      0.68      0.76      6426
+
+    accuracy                           0.99    199206
+   macro avg       0.93      0.84      0.88    199206
+weighted avg       0.99      0.99      0.99    199206
+","              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99     82620
+           1       0.85      0.68      0.76      2754
+
+    accuracy                           0.99     85374
+   macro avg       0.92      0.84      0.87     85374
+weighted avg       0.98      0.99      0.99     85374
+"
+voting_soft_2models__4f_eng3,"VotingClassifier(estimators=[('bag_tree',
+                              BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                                                 min_samples_leaf=10),
+                                                n_estimators=50)),
+                             ('bag_reglog',
+                              BaggingClassifier(estimator=LogisticRegression(C=0.1),
+                                                n_estimators=50)),
+                             ('bag_tree_log',
+                              BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                                                 max_depth=8,
+                                                                                 min_samples_leaf=10),
+                                                n_estimators=50)),
+                             ('bag_reglog1',
+                              BaggingClassifier(estimator=LogisticRegression(C=0.1),
+                                                n_estimators=50))],
+                 voting='soft')",4f_eng3,"{'estimators': [('bag_tree', BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50)), ('bag_reglog', BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50)), ('bag_tree_log', BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                   max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50)), ('bag_reglog1', BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50))], 'flatten_transform': True, 'n_jobs': None, 'verbose': False, 'voting': 'soft', 'weights': None, 'bag_tree': BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50), 'bag_reglog': BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50), 'bag_tree_log': BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                   max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50), 'bag_reglog1': BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50), 'bag_tree__base_estimator': 'deprecated', 'bag_tree__bootstrap': True, 'bag_tree__bootstrap_features': False, 'bag_tree__estimator__ccp_alpha': 0.0, 'bag_tree__estimator__class_weight': None, 'bag_tree__estimator__criterion': 'gini', 'bag_tree__estimator__max_depth': 8, 'bag_tree__estimator__max_features': None, 'bag_tree__estimator__max_leaf_nodes': None, 'bag_tree__estimator__min_impurity_decrease': 0.0, 'bag_tree__estimator__min_samples_leaf': 10, 'bag_tree__estimator__min_samples_split': 2, 'bag_tree__estimator__min_weight_fraction_leaf': 0.0, 'bag_tree__estimator__random_state': None, 'bag_tree__estimator__splitter': 'best', 'bag_tree__estimator': DecisionTreeClassifier(max_depth=8, min_samples_leaf=10), 'bag_tree__max_features': 1.0, 'bag_tree__max_samples': 1.0, 'bag_tree__n_estimators': 50, 'bag_tree__n_jobs': None, 'bag_tree__oob_score': False, 'bag_tree__random_state': None, 'bag_tree__verbose': 0, 'bag_tree__warm_start': False, 'bag_reglog__base_estimator': 'deprecated', 'bag_reglog__bootstrap': True, 'bag_reglog__bootstrap_features': False, 'bag_reglog__estimator__C': 0.1, 'bag_reglog__estimator__class_weight': None, 'bag_reglog__estimator__dual': False, 'bag_reglog__estimator__fit_intercept': True, 'bag_reglog__estimator__intercept_scaling': 1, 'bag_reglog__estimator__l1_ratio': None, 'bag_reglog__estimator__max_iter': 100, 'bag_reglog__estimator__multi_class': 'auto', 'bag_reglog__estimator__n_jobs': None, 'bag_reglog__estimator__penalty': 'l2', 'bag_reglog__estimator__random_state': None, 'bag_reglog__estimator__solver': 'lbfgs', 'bag_reglog__estimator__tol': 0.0001, 'bag_reglog__estimator__verbose': 0, 'bag_reglog__estimator__warm_start': False, 'bag_reglog__estimator': LogisticRegression(C=0.1), 'bag_reglog__max_features': 1.0, 'bag_reglog__max_samples': 1.0, 'bag_reglog__n_estimators': 50, 'bag_reglog__n_jobs': None, 'bag_reglog__oob_score': False, 'bag_reglog__random_state': None, 'bag_reglog__verbose': 0, 'bag_reglog__warm_start': False, 'bag_tree_log__base_estimator': 'deprecated', 'bag_tree_log__bootstrap': True, 'bag_tree_log__bootstrap_features': False, 'bag_tree_log__estimator__ccp_alpha': 0.0, 'bag_tree_log__estimator__class_weight': None, 'bag_tree_log__estimator__criterion': 'log_loss', 'bag_tree_log__estimator__max_depth': 8, 'bag_tree_log__estimator__max_features': None, 'bag_tree_log__estimator__max_leaf_nodes': None, 'bag_tree_log__estimator__min_impurity_decrease': 0.0, 'bag_tree_log__estimator__min_samples_leaf': 10, 'bag_tree_log__estimator__min_samples_split': 2, 'bag_tree_log__estimator__min_weight_fraction_leaf': 0.0, 'bag_tree_log__estimator__random_state': None, 'bag_tree_log__estimator__splitter': 'best', 'bag_tree_log__estimator': DecisionTreeClassifier(criterion='log_loss', max_depth=8, min_samples_leaf=10), 'bag_tree_log__max_features': 1.0, 'bag_tree_log__max_samples': 1.0, 'bag_tree_log__n_estimators': 50, 'bag_tree_log__n_jobs': None, 'bag_tree_log__oob_score': False, 'bag_tree_log__random_state': None, 'bag_tree_log__verbose': 0, 'bag_tree_log__warm_start': False, 'bag_reglog1__base_estimator': 'deprecated', 'bag_reglog1__bootstrap': True, 'bag_reglog1__bootstrap_features': False, 'bag_reglog1__estimator__C': 0.1, 'bag_reglog1__estimator__class_weight': None, 'bag_reglog1__estimator__dual': False, 'bag_reglog1__estimator__fit_intercept': True, 'bag_reglog1__estimator__intercept_scaling': 1, 'bag_reglog1__estimator__l1_ratio': None, 'bag_reglog1__estimator__max_iter': 100, 'bag_reglog1__estimator__multi_class': 'auto', 'bag_reglog1__estimator__n_jobs': None, 'bag_reglog1__estimator__penalty': 'l2', 'bag_reglog1__estimator__random_state': None, 'bag_reglog1__estimator__solver': 'lbfgs', 'bag_reglog1__estimator__tol': 0.0001, 'bag_reglog1__estimator__verbose': 0, 'bag_reglog1__estimator__warm_start': False, 'bag_reglog1__estimator': LogisticRegression(C=0.1), 'bag_reglog1__max_features': 1.0, 'bag_reglog1__max_samples': 1.0, 'bag_reglog1__n_estimators': 50, 'bag_reglog1__n_jobs': None, 'bag_reglog1__oob_score': False, 'bag_reglog1__random_state': None, 'bag_reglog1__verbose': 0, 'bag_reglog1__warm_start': False, 'percent_val': 0.3}",0.986466271096252,0.9854873849181248,[],[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7688614540466393,0.7520512307384432,82256,364,875,1879,192026,754,1942,4484,"              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99    192780
+           1       0.86      0.70      0.77      6426
+
+    accuracy                           0.99    199206
+   macro avg       0.92      0.85      0.88    199206
+weighted avg       0.99      0.99      0.99    199206
+","              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99     82620
+           1       0.84      0.68      0.75      2754
+
+    accuracy                           0.99     85374
+   macro avg       0.91      0.84      0.87     85374
+weighted avg       0.98      0.99      0.98     85374
+"
+voting_hard_2models_4f_eng3,"VotingClassifier(estimators=[('bag_tree',
+                              BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                                                 min_samples_leaf=10),
+                                                n_estimators=50)),
+                             ('bag_reglog',
+                              BaggingClassifier(estimator=LogisticRegression(C=0.1),
+                                                n_estimators=50)),
+                             ('bag_tree_log',
+                              BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                                                 max_depth=8,
+                                                                                 min_samples_leaf=10),
+                                                n_estimators=50)),
+                             ('bag_reglog1',
+                              BaggingClassifier(estimator=LogisticRegression(C=0.1),
+                                                n_estimators=50))])",4f_eng3,"{'estimators': [('bag_tree', BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50)), ('bag_reglog', BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50)), ('bag_tree_log', BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                   max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50)), ('bag_reglog1', BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50))], 'flatten_transform': True, 'n_jobs': None, 'verbose': False, 'voting': 'hard', 'weights': None, 'bag_tree': BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50), 'bag_reglog': BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50), 'bag_tree_log': BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                   max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50), 'bag_reglog1': BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50), 'bag_tree__base_estimator': 'deprecated', 'bag_tree__bootstrap': True, 'bag_tree__bootstrap_features': False, 'bag_tree__estimator__ccp_alpha': 0.0, 'bag_tree__estimator__class_weight': None, 'bag_tree__estimator__criterion': 'gini', 'bag_tree__estimator__max_depth': 8, 'bag_tree__estimator__max_features': None, 'bag_tree__estimator__max_leaf_nodes': None, 'bag_tree__estimator__min_impurity_decrease': 0.0, 'bag_tree__estimator__min_samples_leaf': 10, 'bag_tree__estimator__min_samples_split': 2, 'bag_tree__estimator__min_weight_fraction_leaf': 0.0, 'bag_tree__estimator__random_state': None, 'bag_tree__estimator__splitter': 'best', 'bag_tree__estimator': DecisionTreeClassifier(max_depth=8, min_samples_leaf=10), 'bag_tree__max_features': 1.0, 'bag_tree__max_samples': 1.0, 'bag_tree__n_estimators': 50, 'bag_tree__n_jobs': None, 'bag_tree__oob_score': False, 'bag_tree__random_state': None, 'bag_tree__verbose': 0, 'bag_tree__warm_start': False, 'bag_reglog__base_estimator': 'deprecated', 'bag_reglog__bootstrap': True, 'bag_reglog__bootstrap_features': False, 'bag_reglog__estimator__C': 0.1, 'bag_reglog__estimator__class_weight': None, 'bag_reglog__estimator__dual': False, 'bag_reglog__estimator__fit_intercept': True, 'bag_reglog__estimator__intercept_scaling': 1, 'bag_reglog__estimator__l1_ratio': None, 'bag_reglog__estimator__max_iter': 100, 'bag_reglog__estimator__multi_class': 'auto', 'bag_reglog__estimator__n_jobs': None, 'bag_reglog__estimator__penalty': 'l2', 'bag_reglog__estimator__random_state': None, 'bag_reglog__estimator__solver': 'lbfgs', 'bag_reglog__estimator__tol': 0.0001, 'bag_reglog__estimator__verbose': 0, 'bag_reglog__estimator__warm_start': False, 'bag_reglog__estimator': LogisticRegression(C=0.1), 'bag_reglog__max_features': 1.0, 'bag_reglog__max_samples': 1.0, 'bag_reglog__n_estimators': 50, 'bag_reglog__n_jobs': None, 'bag_reglog__oob_score': False, 'bag_reglog__random_state': None, 'bag_reglog__verbose': 0, 'bag_reglog__warm_start': False, 'bag_tree_log__base_estimator': 'deprecated', 'bag_tree_log__bootstrap': True, 'bag_tree_log__bootstrap_features': False, 'bag_tree_log__estimator__ccp_alpha': 0.0, 'bag_tree_log__estimator__class_weight': None, 'bag_tree_log__estimator__criterion': 'log_loss', 'bag_tree_log__estimator__max_depth': 8, 'bag_tree_log__estimator__max_features': None, 'bag_tree_log__estimator__max_leaf_nodes': None, 'bag_tree_log__estimator__min_impurity_decrease': 0.0, 'bag_tree_log__estimator__min_samples_leaf': 10, 'bag_tree_log__estimator__min_samples_split': 2, 'bag_tree_log__estimator__min_weight_fraction_leaf': 0.0, 'bag_tree_log__estimator__random_state': None, 'bag_tree_log__estimator__splitter': 'best', 'bag_tree_log__estimator': DecisionTreeClassifier(criterion='log_loss', max_depth=8, min_samples_leaf=10), 'bag_tree_log__max_features': 1.0, 'bag_tree_log__max_samples': 1.0, 'bag_tree_log__n_estimators': 50, 'bag_tree_log__n_jobs': None, 'bag_tree_log__oob_score': False, 'bag_tree_log__random_state': None, 'bag_tree_log__verbose': 0, 'bag_tree_log__warm_start': False, 'bag_reglog1__base_estimator': 'deprecated', 'bag_reglog1__bootstrap': True, 'bag_reglog1__bootstrap_features': False, 'bag_reglog1__estimator__C': 0.1, 'bag_reglog1__estimator__class_weight': None, 'bag_reglog1__estimator__dual': False, 'bag_reglog1__estimator__fit_intercept': True, 'bag_reglog1__estimator__intercept_scaling': 1, 'bag_reglog1__estimator__l1_ratio': None, 'bag_reglog1__estimator__max_iter': 100, 'bag_reglog1__estimator__multi_class': 'auto', 'bag_reglog1__estimator__n_jobs': None, 'bag_reglog1__estimator__penalty': 'l2', 'bag_reglog1__estimator__random_state': None, 'bag_reglog1__estimator__solver': 'lbfgs', 'bag_reglog1__estimator__tol': 0.0001, 'bag_reglog1__estimator__verbose': 0, 'bag_reglog1__estimator__warm_start': False, 'bag_reglog1__estimator': LogisticRegression(C=0.1), 'bag_reglog1__max_features': 1.0, 'bag_reglog1__max_samples': 1.0, 'bag_reglog1__n_estimators': 50, 'bag_reglog1__n_jobs': None, 'bag_reglog1__oob_score': False, 'bag_reglog1__random_state': None, 'bag_reglog1__verbose': 0, 'bag_reglog1__warm_start': False, 'percent_val': 0.3}",0.9863206931518128,0.985545950757842,[],[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7609858784317166,0.748266013871889,82306,314,920,1834,192143,637,2088,4338,"              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99    192780
+           1       0.87      0.68      0.76      6426
+
+    accuracy                           0.99    199206
+   macro avg       0.93      0.84      0.88    199206
+weighted avg       0.99      0.99      0.99    199206
+","              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99     82620
+           1       0.85      0.67      0.75      2754
+
+    accuracy                           0.99     85374
+   macro avg       0.92      0.83      0.87     85374
+weighted avg       0.98      0.99      0.98     85374
+"
+stacking1_2models,"StackingClassifier(cv=3,
+                   estimators=[('bag_tree',
+                                BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                                                   min_samples_leaf=10),
+                                                  n_estimators=50)),
+                               ('bag_reglog',
+                                BaggingClassifier(estimator=LogisticRegression(C=0.1),
+                                                  n_estimators=50)),
+                               ('bag_tree_log',
+                                BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                                                   max_depth=8,
+                                                                                   min_samples_leaf=10),
+                                                  n_estimators=50)),
+                               ('bag_reglog1',
+                                BaggingClassifier(estimator=LogisticRegression(C=0.1),
+                                                  n_estimators=50))])",4f_eng3,"{'cv': 3, 'estimators': [('bag_tree', BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50)), ('bag_reglog', BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50)), ('bag_tree_log', BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                   max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50)), ('bag_reglog1', BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50))], 'final_estimator': None, 'n_jobs': None, 'passthrough': False, 'stack_method': 'auto', 'verbose': 0, 'bag_tree': BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50), 'bag_reglog': BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50), 'bag_tree_log': BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                   max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50), 'bag_reglog1': BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50), 'bag_tree__base_estimator': 'deprecated', 'bag_tree__bootstrap': True, 'bag_tree__bootstrap_features': False, 'bag_tree__estimator__ccp_alpha': 0.0, 'bag_tree__estimator__class_weight': None, 'bag_tree__estimator__criterion': 'gini', 'bag_tree__estimator__max_depth': 8, 'bag_tree__estimator__max_features': None, 'bag_tree__estimator__max_leaf_nodes': None, 'bag_tree__estimator__min_impurity_decrease': 0.0, 'bag_tree__estimator__min_samples_leaf': 10, 'bag_tree__estimator__min_samples_split': 2, 'bag_tree__estimator__min_weight_fraction_leaf': 0.0, 'bag_tree__estimator__random_state': None, 'bag_tree__estimator__splitter': 'best', 'bag_tree__estimator': DecisionTreeClassifier(max_depth=8, min_samples_leaf=10), 'bag_tree__max_features': 1.0, 'bag_tree__max_samples': 1.0, 'bag_tree__n_estimators': 50, 'bag_tree__n_jobs': None, 'bag_tree__oob_score': False, 'bag_tree__random_state': None, 'bag_tree__verbose': 0, 'bag_tree__warm_start': False, 'bag_reglog__base_estimator': 'deprecated', 'bag_reglog__bootstrap': True, 'bag_reglog__bootstrap_features': False, 'bag_reglog__estimator__C': 0.1, 'bag_reglog__estimator__class_weight': None, 'bag_reglog__estimator__dual': False, 'bag_reglog__estimator__fit_intercept': True, 'bag_reglog__estimator__intercept_scaling': 1, 'bag_reglog__estimator__l1_ratio': None, 'bag_reglog__estimator__max_iter': 100, 'bag_reglog__estimator__multi_class': 'auto', 'bag_reglog__estimator__n_jobs': None, 'bag_reglog__estimator__penalty': 'l2', 'bag_reglog__estimator__random_state': None, 'bag_reglog__estimator__solver': 'lbfgs', 'bag_reglog__estimator__tol': 0.0001, 'bag_reglog__estimator__verbose': 0, 'bag_reglog__estimator__warm_start': False, 'bag_reglog__estimator': LogisticRegression(C=0.1), 'bag_reglog__max_features': 1.0, 'bag_reglog__max_samples': 1.0, 'bag_reglog__n_estimators': 50, 'bag_reglog__n_jobs': None, 'bag_reglog__oob_score': False, 'bag_reglog__random_state': None, 'bag_reglog__verbose': 0, 'bag_reglog__warm_start': False, 'bag_tree_log__base_estimator': 'deprecated', 'bag_tree_log__bootstrap': True, 'bag_tree_log__bootstrap_features': False, 'bag_tree_log__estimator__ccp_alpha': 0.0, 'bag_tree_log__estimator__class_weight': None, 'bag_tree_log__estimator__criterion': 'log_loss', 'bag_tree_log__estimator__max_depth': 8, 'bag_tree_log__estimator__max_features': None, 'bag_tree_log__estimator__max_leaf_nodes': None, 'bag_tree_log__estimator__min_impurity_decrease': 0.0, 'bag_tree_log__estimator__min_samples_leaf': 10, 'bag_tree_log__estimator__min_samples_split': 2, 'bag_tree_log__estimator__min_weight_fraction_leaf': 0.0, 'bag_tree_log__estimator__random_state': None, 'bag_tree_log__estimator__splitter': 'best', 'bag_tree_log__estimator': DecisionTreeClassifier(criterion='log_loss', max_depth=8, min_samples_leaf=10), 'bag_tree_log__max_features': 1.0, 'bag_tree_log__max_samples': 1.0, 'bag_tree_log__n_estimators': 50, 'bag_tree_log__n_jobs': None, 'bag_tree_log__oob_score': False, 'bag_tree_log__random_state': None, 'bag_tree_log__verbose': 0, 'bag_tree_log__warm_start': False, 'bag_reglog1__base_estimator': 'deprecated', 'bag_reglog1__bootstrap': True, 'bag_reglog1__bootstrap_features': False, 'bag_reglog1__estimator__C': 0.1, 'bag_reglog1__estimator__class_weight': None, 'bag_reglog1__estimator__dual': False, 'bag_reglog1__estimator__fit_intercept': True, 'bag_reglog1__estimator__intercept_scaling': 1, 'bag_reglog1__estimator__l1_ratio': None, 'bag_reglog1__estimator__max_iter': 100, 'bag_reglog1__estimator__multi_class': 'auto', 'bag_reglog1__estimator__n_jobs': None, 'bag_reglog1__estimator__penalty': 'l2', 'bag_reglog1__estimator__random_state': None, 'bag_reglog1__estimator__solver': 'lbfgs', 'bag_reglog1__estimator__tol': 0.0001, 'bag_reglog1__estimator__verbose': 0, 'bag_reglog1__estimator__warm_start': False, 'bag_reglog1__estimator': LogisticRegression(C=0.1), 'bag_reglog1__max_features': 1.0, 'bag_reglog1__max_samples': 1.0, 'bag_reglog1__n_estimators': 50, 'bag_reglog1__n_jobs': None, 'bag_reglog1__oob_score': False, 'bag_reglog1__random_state': None, 'bag_reglog1__verbose': 0, 'bag_reglog1__warm_start': False, 'percent_val': 0.3}",0.9861299358453058,0.9859207721320308,[],[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7584156684445221,0.7565816119886594,82304,316,886,1868,192106,674,2089,4337,"              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99    192780
+           1       0.87      0.67      0.76      6426
+
+    accuracy                           0.99    199206
+   macro avg       0.93      0.84      0.88    199206
+weighted avg       0.99      0.99      0.99    199206
+","              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99     82620
+           1       0.86      0.68      0.76      2754
+
+    accuracy                           0.99     85374
+   macro avg       0.92      0.84      0.87     85374
+weighted avg       0.99      0.99      0.99     85374
+"
+stacking2_2models,"StackingClassifier(cv=3,
+                   estimators=[('bag_reglog',
+                                BaggingClassifier(estimator=LogisticRegression(C=0.1),
+                                                  n_estimators=50)),
+                               ('bag_tree',
+                                BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                                                   min_samples_leaf=10),
+                                                  n_estimators=50)),
+                               ('bag_reglog1',
+                                BaggingClassifier(estimator=LogisticRegression(C=0.1),
+                                                  n_estimators=50)),
+                               ('bag_tree_log',
+                                BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                                                   max_depth=8,
+                                                                                   min_samples_leaf=10),
+                                                  n_estimators=50))])",4f_eng3,"{'cv': 3, 'estimators': [('bag_reglog', BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50)), ('bag_tree', BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50)), ('bag_reglog1', BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50)), ('bag_tree_log', BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                   max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50))], 'final_estimator': None, 'n_jobs': None, 'passthrough': False, 'stack_method': 'auto', 'verbose': 0, 'bag_reglog': BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50), 'bag_tree': BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50), 'bag_reglog1': BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50), 'bag_tree_log': BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                   max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50), 'bag_reglog__base_estimator': 'deprecated', 'bag_reglog__bootstrap': True, 'bag_reglog__bootstrap_features': False, 'bag_reglog__estimator__C': 0.1, 'bag_reglog__estimator__class_weight': None, 'bag_reglog__estimator__dual': False, 'bag_reglog__estimator__fit_intercept': True, 'bag_reglog__estimator__intercept_scaling': 1, 'bag_reglog__estimator__l1_ratio': None, 'bag_reglog__estimator__max_iter': 100, 'bag_reglog__estimator__multi_class': 'auto', 'bag_reglog__estimator__n_jobs': None, 'bag_reglog__estimator__penalty': 'l2', 'bag_reglog__estimator__random_state': None, 'bag_reglog__estimator__solver': 'lbfgs', 'bag_reglog__estimator__tol': 0.0001, 'bag_reglog__estimator__verbose': 0, 'bag_reglog__estimator__warm_start': False, 'bag_reglog__estimator': LogisticRegression(C=0.1), 'bag_reglog__max_features': 1.0, 'bag_reglog__max_samples': 1.0, 'bag_reglog__n_estimators': 50, 'bag_reglog__n_jobs': None, 'bag_reglog__oob_score': False, 'bag_reglog__random_state': None, 'bag_reglog__verbose': 0, 'bag_reglog__warm_start': False, 'bag_tree__base_estimator': 'deprecated', 'bag_tree__bootstrap': True, 'bag_tree__bootstrap_features': False, 'bag_tree__estimator__ccp_alpha': 0.0, 'bag_tree__estimator__class_weight': None, 'bag_tree__estimator__criterion': 'gini', 'bag_tree__estimator__max_depth': 8, 'bag_tree__estimator__max_features': None, 'bag_tree__estimator__max_leaf_nodes': None, 'bag_tree__estimator__min_impurity_decrease': 0.0, 'bag_tree__estimator__min_samples_leaf': 10, 'bag_tree__estimator__min_samples_split': 2, 'bag_tree__estimator__min_weight_fraction_leaf': 0.0, 'bag_tree__estimator__random_state': None, 'bag_tree__estimator__splitter': 'best', 'bag_tree__estimator': DecisionTreeClassifier(max_depth=8, min_samples_leaf=10), 'bag_tree__max_features': 1.0, 'bag_tree__max_samples': 1.0, 'bag_tree__n_estimators': 50, 'bag_tree__n_jobs': None, 'bag_tree__oob_score': False, 'bag_tree__random_state': None, 'bag_tree__verbose': 0, 'bag_tree__warm_start': False, 'bag_reglog1__base_estimator': 'deprecated', 'bag_reglog1__bootstrap': True, 'bag_reglog1__bootstrap_features': False, 'bag_reglog1__estimator__C': 0.1, 'bag_reglog1__estimator__class_weight': None, 'bag_reglog1__estimator__dual': False, 'bag_reglog1__estimator__fit_intercept': True, 'bag_reglog1__estimator__intercept_scaling': 1, 'bag_reglog1__estimator__l1_ratio': None, 'bag_reglog1__estimator__max_iter': 100, 'bag_reglog1__estimator__multi_class': 'auto', 'bag_reglog1__estimator__n_jobs': None, 'bag_reglog1__estimator__penalty': 'l2', 'bag_reglog1__estimator__random_state': None, 'bag_reglog1__estimator__solver': 'lbfgs', 'bag_reglog1__estimator__tol': 0.0001, 'bag_reglog1__estimator__verbose': 0, 'bag_reglog1__estimator__warm_start': False, 'bag_reglog1__estimator': LogisticRegression(C=0.1), 'bag_reglog1__max_features': 1.0, 'bag_reglog1__max_samples': 1.0, 'bag_reglog1__n_estimators': 50, 'bag_reglog1__n_jobs': None, 'bag_reglog1__oob_score': False, 'bag_reglog1__random_state': None, 'bag_reglog1__verbose': 0, 'bag_reglog1__warm_start': False, 'bag_tree_log__base_estimator': 'deprecated', 'bag_tree_log__bootstrap': True, 'bag_tree_log__bootstrap_features': False, 'bag_tree_log__estimator__ccp_alpha': 0.0, 'bag_tree_log__estimator__class_weight': None, 'bag_tree_log__estimator__criterion': 'log_loss', 'bag_tree_log__estimator__max_depth': 8, 'bag_tree_log__estimator__max_features': None, 'bag_tree_log__estimator__max_leaf_nodes': None, 'bag_tree_log__estimator__min_impurity_decrease': 0.0, 'bag_tree_log__estimator__min_samples_leaf': 10, 'bag_tree_log__estimator__min_samples_split': 2, 'bag_tree_log__estimator__min_weight_fraction_leaf': 0.0, 'bag_tree_log__estimator__random_state': None, 'bag_tree_log__estimator__splitter': 'best', 'bag_tree_log__estimator': DecisionTreeClassifier(criterion='log_loss', max_depth=8, min_samples_leaf=10), 'bag_tree_log__max_features': 1.0, 'bag_tree_log__max_samples': 1.0, 'bag_tree_log__n_estimators': 50, 'bag_tree_log__n_jobs': None, 'bag_tree_log__oob_score': False, 'bag_tree_log__random_state': None, 'bag_tree_log__verbose': 0, 'bag_tree_log__warm_start': False, 'percent_val': 0.3}",0.9860998162705944,0.985897345796144,[],[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7574244415243101,0.7559789217673287,82305,315,889,1865,192114,666,2103,4323,"              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99    192780
+           1       0.87      0.67      0.76      6426
+
+    accuracy                           0.99    199206
+   macro avg       0.93      0.83      0.88    199206
+weighted avg       0.99      0.99      0.99    199206
+","              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99     82620
+           1       0.86      0.68      0.76      2754
+
+    accuracy                           0.99     85374
+   macro avg       0.92      0.84      0.87     85374
+weighted avg       0.98      0.99      0.99     85374
+"
+stacking3_2models,"StackingClassifier(cv=3,
+                   estimators=[('bag_tree',
+                                BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                                                   min_samples_leaf=10),
+                                                  n_estimators=50)),
+                               ('bag_tree_log',
+                                BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                                                   max_depth=8,
+                                                                                   min_samples_leaf=10),
+                                                  n_estimators=50)),
+                               ('bag_reglog',
+                                BaggingClassifier(estimator=LogisticRegression(C=0.1),
+                                                  n_estimators=50)),
+                               ('bag_reglog1',
+                                BaggingClassifier(estimator=LogisticRegression(C=0.1),
+                                                  n_estimators=50))])",4f_eng3,"{'cv': 3, 'estimators': [('bag_tree', BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50)), ('bag_tree_log', BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                   max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50)), ('bag_reglog', BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50)), ('bag_reglog1', BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50))], 'final_estimator': None, 'n_jobs': None, 'passthrough': False, 'stack_method': 'auto', 'verbose': 0, 'bag_tree': BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50), 'bag_tree_log': BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                   max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50), 'bag_reglog': BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50), 'bag_reglog1': BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50), 'bag_tree__base_estimator': 'deprecated', 'bag_tree__bootstrap': True, 'bag_tree__bootstrap_features': False, 'bag_tree__estimator__ccp_alpha': 0.0, 'bag_tree__estimator__class_weight': None, 'bag_tree__estimator__criterion': 'gini', 'bag_tree__estimator__max_depth': 8, 'bag_tree__estimator__max_features': None, 'bag_tree__estimator__max_leaf_nodes': None, 'bag_tree__estimator__min_impurity_decrease': 0.0, 'bag_tree__estimator__min_samples_leaf': 10, 'bag_tree__estimator__min_samples_split': 2, 'bag_tree__estimator__min_weight_fraction_leaf': 0.0, 'bag_tree__estimator__random_state': None, 'bag_tree__estimator__splitter': 'best', 'bag_tree__estimator': DecisionTreeClassifier(max_depth=8, min_samples_leaf=10), 'bag_tree__max_features': 1.0, 'bag_tree__max_samples': 1.0, 'bag_tree__n_estimators': 50, 'bag_tree__n_jobs': None, 'bag_tree__oob_score': False, 'bag_tree__random_state': None, 'bag_tree__verbose': 0, 'bag_tree__warm_start': False, 'bag_tree_log__base_estimator': 'deprecated', 'bag_tree_log__bootstrap': True, 'bag_tree_log__bootstrap_features': False, 'bag_tree_log__estimator__ccp_alpha': 0.0, 'bag_tree_log__estimator__class_weight': None, 'bag_tree_log__estimator__criterion': 'log_loss', 'bag_tree_log__estimator__max_depth': 8, 'bag_tree_log__estimator__max_features': None, 'bag_tree_log__estimator__max_leaf_nodes': None, 'bag_tree_log__estimator__min_impurity_decrease': 0.0, 'bag_tree_log__estimator__min_samples_leaf': 10, 'bag_tree_log__estimator__min_samples_split': 2, 'bag_tree_log__estimator__min_weight_fraction_leaf': 0.0, 'bag_tree_log__estimator__random_state': None, 'bag_tree_log__estimator__splitter': 'best', 'bag_tree_log__estimator': DecisionTreeClassifier(criterion='log_loss', max_depth=8, min_samples_leaf=10), 'bag_tree_log__max_features': 1.0, 'bag_tree_log__max_samples': 1.0, 'bag_tree_log__n_estimators': 50, 'bag_tree_log__n_jobs': None, 'bag_tree_log__oob_score': False, 'bag_tree_log__random_state': None, 'bag_tree_log__verbose': 0, 'bag_tree_log__warm_start': False, 'bag_reglog__base_estimator': 'deprecated', 'bag_reglog__bootstrap': True, 'bag_reglog__bootstrap_features': False, 'bag_reglog__estimator__C': 0.1, 'bag_reglog__estimator__class_weight': None, 'bag_reglog__estimator__dual': False, 'bag_reglog__estimator__fit_intercept': True, 'bag_reglog__estimator__intercept_scaling': 1, 'bag_reglog__estimator__l1_ratio': None, 'bag_reglog__estimator__max_iter': 100, 'bag_reglog__estimator__multi_class': 'auto', 'bag_reglog__estimator__n_jobs': None, 'bag_reglog__estimator__penalty': 'l2', 'bag_reglog__estimator__random_state': None, 'bag_reglog__estimator__solver': 'lbfgs', 'bag_reglog__estimator__tol': 0.0001, 'bag_reglog__estimator__verbose': 0, 'bag_reglog__estimator__warm_start': False, 'bag_reglog__estimator': LogisticRegression(C=0.1), 'bag_reglog__max_features': 1.0, 'bag_reglog__max_samples': 1.0, 'bag_reglog__n_estimators': 50, 'bag_reglog__n_jobs': None, 'bag_reglog__oob_score': False, 'bag_reglog__random_state': None, 'bag_reglog__verbose': 0, 'bag_reglog__warm_start': False, 'bag_reglog1__base_estimator': 'deprecated', 'bag_reglog1__bootstrap': True, 'bag_reglog1__bootstrap_features': False, 'bag_reglog1__estimator__C': 0.1, 'bag_reglog1__estimator__class_weight': None, 'bag_reglog1__estimator__dual': False, 'bag_reglog1__estimator__fit_intercept': True, 'bag_reglog1__estimator__intercept_scaling': 1, 'bag_reglog1__estimator__l1_ratio': None, 'bag_reglog1__estimator__max_iter': 100, 'bag_reglog1__estimator__multi_class': 'auto', 'bag_reglog1__estimator__n_jobs': None, 'bag_reglog1__estimator__penalty': 'l2', 'bag_reglog1__estimator__random_state': None, 'bag_reglog1__estimator__solver': 'lbfgs', 'bag_reglog1__estimator__tol': 0.0001, 'bag_reglog1__estimator__verbose': 0, 'bag_reglog1__estimator__warm_start': False, 'bag_reglog1__estimator': LogisticRegression(C=0.1), 'bag_reglog1__max_features': 1.0, 'bag_reglog1__max_samples': 1.0, 'bag_reglog1__n_estimators': 50, 'bag_reglog1__n_jobs': None, 'bag_reglog1__oob_score': False, 'bag_reglog1__random_state': None, 'bag_reglog1__verbose': 0, 'bag_reglog1__warm_start': False, 'percent_val': 0.3}",0.9861249159161872,0.9859207721320308,[],[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7581379068953449,0.7559886317498984,82310,310,892,1862,192110,670,2094,4332,"              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99    192780
+           1       0.87      0.67      0.76      6426
+
+    accuracy                           0.99    199206
+   macro avg       0.93      0.84      0.88    199206
+weighted avg       0.99      0.99      0.99    199206
+","              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99     82620
+           1       0.86      0.68      0.76      2754
+
+    accuracy                           0.99     85374
+   macro avg       0.92      0.84      0.87     85374
+weighted avg       0.99      0.99      0.99     85374
+"
+stacking4_2models,"StackingClassifier(cv=3,
+                   estimators=[('bag_reglog',
+                                BaggingClassifier(estimator=LogisticRegression(C=0.1),
+                                                  n_estimators=50)),
+                               ('bag_reglog1',
+                                BaggingClassifier(estimator=LogisticRegression(C=0.1),
+                                                  n_estimators=50)),
+                               ('bag_tree',
+                                BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                                                   min_samples_leaf=10),
+                                                  n_estimators=50)),
+                               ('bag_tree_log',
+                                BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                                                   max_depth=8,
+                                                                                   min_samples_leaf=10),
+                                                  n_estimators=50))])",4f_eng3,"{'cv': 3, 'estimators': [('bag_reglog', BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50)), ('bag_reglog1', BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50)), ('bag_tree', BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50)), ('bag_tree_log', BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                   max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50))], 'final_estimator': None, 'n_jobs': None, 'passthrough': False, 'stack_method': 'auto', 'verbose': 0, 'bag_reglog': BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50), 'bag_reglog1': BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50), 'bag_tree': BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50), 'bag_tree_log': BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                   max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50), 'bag_reglog__base_estimator': 'deprecated', 'bag_reglog__bootstrap': True, 'bag_reglog__bootstrap_features': False, 'bag_reglog__estimator__C': 0.1, 'bag_reglog__estimator__class_weight': None, 'bag_reglog__estimator__dual': False, 'bag_reglog__estimator__fit_intercept': True, 'bag_reglog__estimator__intercept_scaling': 1, 'bag_reglog__estimator__l1_ratio': None, 'bag_reglog__estimator__max_iter': 100, 'bag_reglog__estimator__multi_class': 'auto', 'bag_reglog__estimator__n_jobs': None, 'bag_reglog__estimator__penalty': 'l2', 'bag_reglog__estimator__random_state': None, 'bag_reglog__estimator__solver': 'lbfgs', 'bag_reglog__estimator__tol': 0.0001, 'bag_reglog__estimator__verbose': 0, 'bag_reglog__estimator__warm_start': False, 'bag_reglog__estimator': LogisticRegression(C=0.1), 'bag_reglog__max_features': 1.0, 'bag_reglog__max_samples': 1.0, 'bag_reglog__n_estimators': 50, 'bag_reglog__n_jobs': None, 'bag_reglog__oob_score': False, 'bag_reglog__random_state': None, 'bag_reglog__verbose': 0, 'bag_reglog__warm_start': False, 'bag_reglog1__base_estimator': 'deprecated', 'bag_reglog1__bootstrap': True, 'bag_reglog1__bootstrap_features': False, 'bag_reglog1__estimator__C': 0.1, 'bag_reglog1__estimator__class_weight': None, 'bag_reglog1__estimator__dual': False, 'bag_reglog1__estimator__fit_intercept': True, 'bag_reglog1__estimator__intercept_scaling': 1, 'bag_reglog1__estimator__l1_ratio': None, 'bag_reglog1__estimator__max_iter': 100, 'bag_reglog1__estimator__multi_class': 'auto', 'bag_reglog1__estimator__n_jobs': None, 'bag_reglog1__estimator__penalty': 'l2', 'bag_reglog1__estimator__random_state': None, 'bag_reglog1__estimator__solver': 'lbfgs', 'bag_reglog1__estimator__tol': 0.0001, 'bag_reglog1__estimator__verbose': 0, 'bag_reglog1__estimator__warm_start': False, 'bag_reglog1__estimator': LogisticRegression(C=0.1), 'bag_reglog1__max_features': 1.0, 'bag_reglog1__max_samples': 1.0, 'bag_reglog1__n_estimators': 50, 'bag_reglog1__n_jobs': None, 'bag_reglog1__oob_score': False, 'bag_reglog1__random_state': None, 'bag_reglog1__verbose': 0, 'bag_reglog1__warm_start': False, 'bag_tree__base_estimator': 'deprecated', 'bag_tree__bootstrap': True, 'bag_tree__bootstrap_features': False, 'bag_tree__estimator__ccp_alpha': 0.0, 'bag_tree__estimator__class_weight': None, 'bag_tree__estimator__criterion': 'gini', 'bag_tree__estimator__max_depth': 8, 'bag_tree__estimator__max_features': None, 'bag_tree__estimator__max_leaf_nodes': None, 'bag_tree__estimator__min_impurity_decrease': 0.0, 'bag_tree__estimator__min_samples_leaf': 10, 'bag_tree__estimator__min_samples_split': 2, 'bag_tree__estimator__min_weight_fraction_leaf': 0.0, 'bag_tree__estimator__random_state': None, 'bag_tree__estimator__splitter': 'best', 'bag_tree__estimator': DecisionTreeClassifier(max_depth=8, min_samples_leaf=10), 'bag_tree__max_features': 1.0, 'bag_tree__max_samples': 1.0, 'bag_tree__n_estimators': 50, 'bag_tree__n_jobs': None, 'bag_tree__oob_score': False, 'bag_tree__random_state': None, 'bag_tree__verbose': 0, 'bag_tree__warm_start': False, 'bag_tree_log__base_estimator': 'deprecated', 'bag_tree_log__bootstrap': True, 'bag_tree_log__bootstrap_features': False, 'bag_tree_log__estimator__ccp_alpha': 0.0, 'bag_tree_log__estimator__class_weight': None, 'bag_tree_log__estimator__criterion': 'log_loss', 'bag_tree_log__estimator__max_depth': 8, 'bag_tree_log__estimator__max_features': None, 'bag_tree_log__estimator__max_leaf_nodes': None, 'bag_tree_log__estimator__min_impurity_decrease': 0.0, 'bag_tree_log__estimator__min_samples_leaf': 10, 'bag_tree_log__estimator__min_samples_split': 2, 'bag_tree_log__estimator__min_weight_fraction_leaf': 0.0, 'bag_tree_log__estimator__random_state': None, 'bag_tree_log__estimator__splitter': 'best', 'bag_tree_log__estimator': DecisionTreeClassifier(criterion='log_loss', max_depth=8, min_samples_leaf=10), 'bag_tree_log__max_features': 1.0, 'bag_tree_log__max_samples': 1.0, 'bag_tree_log__n_estimators': 50, 'bag_tree_log__n_jobs': None, 'bag_tree_log__oob_score': False, 'bag_tree_log__random_state': None, 'bag_tree_log__verbose': 0, 'bag_tree_log__warm_start': False, 'percent_val': 0.3}",0.9861349557744244,0.9859207721320308,[],[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7583552055992999,0.756285482562855,82307,313,889,1865,192110,670,2092,4334,"              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99    192780
+           1       0.87      0.67      0.76      6426
+
+    accuracy                           0.99    199206
+   macro avg       0.93      0.84      0.88    199206
+weighted avg       0.99      0.99      0.99    199206
+","              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99     82620
+           1       0.86      0.68      0.76      2754
+
+    accuracy                           0.99     85374
+   macro avg       0.92      0.84      0.87     85374
+weighted avg       0.99      0.99      0.99     85374
+"
+bag_reglog_4f_eng3,"BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50)",4f_eng3,"{'base_estimator': 'deprecated', 'bootstrap': True, 'bootstrap_features': False, 'estimator__C': 0.1, 'estimator__class_weight': None, 'estimator__dual': False, 'estimator__fit_intercept': True, 'estimator__intercept_scaling': 1, 'estimator__l1_ratio': None, 'estimator__max_iter': 100, 'estimator__multi_class': 'auto', 'estimator__n_jobs': None, 'estimator__penalty': 'l2', 'estimator__random_state': None, 'estimator__solver': 'lbfgs', 'estimator__tol': 0.0001, 'estimator__verbose': 0, 'estimator__warm_start': False, 'estimator': LogisticRegression(C=0.1), 'max_features': 1.0, 'max_samples': 1.0, 'n_estimators': 50, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False, 'percent_val': 0.3}",0.986290573577101,0.9858270667884836,[],[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7635293098969608,0.756637168141593,82283,337,873,1881,192066,714,2017,4409,"              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99    192780
+           1       0.86      0.69      0.76      6426
+
+    accuracy                           0.99    199206
+   macro avg       0.93      0.84      0.88    199206
+weighted avg       0.99      0.99      0.99    199206
+","              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99     82620
+           1       0.85      0.68      0.76      2754
+
+    accuracy                           0.99     85374
+   macro avg       0.92      0.84      0.87     85374
+weighted avg       0.98      0.99      0.99     85374
+"
+bag_reglog1_4f_eng3,"BaggingClassifier(estimator=LogisticRegression(C=1), n_estimators=50)",4f_eng3,"{'base_estimator': 'deprecated', 'bootstrap': True, 'bootstrap_features': False, 'estimator__C': 1, 'estimator__class_weight': None, 'estimator__dual': False, 'estimator__fit_intercept': True, 'estimator__intercept_scaling': 1, 'estimator__l1_ratio': None, 'estimator__max_iter': 100, 'estimator__multi_class': 'auto', 'estimator__n_jobs': None, 'estimator__penalty': 'l2', 'estimator__random_state': None, 'estimator__solver': 'lbfgs', 'estimator__tol': 0.0001, 'estimator__verbose': 0, 'estimator__warm_start': False, 'estimator': LogisticRegression(C=1), 'max_features': 1.0, 'max_samples': 1.0, 'n_estimators': 50, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False, 'percent_val': 0.3}",0.9862704938606268,0.9859207721320308,[],[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7642038106733339,0.7589249899719214,82280,340,862,1892,192039,741,1994,4432,"              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99    192780
+           1       0.86      0.69      0.76      6426
+
+    accuracy                           0.99    199206
+   macro avg       0.92      0.84      0.88    199206
+weighted avg       0.99      0.99      0.99    199206
+","              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99     82620
+           1       0.85      0.69      0.76      2754
+
+    accuracy                           0.99     85374
+   macro avg       0.92      0.84      0.88     85374
+weighted avg       0.99      0.99      0.99     85374
+"
+bag_reglog_4f_full_1,"BaggingClassifier(estimator=LogisticRegression(C=1), n_estimators=50)",4f_full,"{'base_estimator': 'deprecated', 'bootstrap': True, 'bootstrap_features': False, 'estimator__C': 1, 'estimator__class_weight': None, 'estimator__dual': False, 'estimator__fit_intercept': True, 'estimator__intercept_scaling': 1, 'estimator__l1_ratio': None, 'estimator__max_iter': 100, 'estimator__multi_class': 'auto', 'estimator__n_jobs': None, 'estimator__penalty': 'l2', 'estimator__random_state': None, 'estimator__solver': 'lbfgs', 'estimator__tol': 0.0001, 'estimator__verbose': 0, 'estimator__warm_start': False, 'estimator': LogisticRegression(C=1), 'max_features': 1.0, 'max_samples': 1.0, 'n_estimators': 50, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False, 'percent_val': 0.3}",0.9862855536479824,0.9859207721320308,[],[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.764645072363887,0.7589249899719214,82280,340,862,1892,192036,744,1988,4438,"              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99    192780
+           1       0.86      0.69      0.76      6426
+
+    accuracy                           0.99    199206
+   macro avg       0.92      0.84      0.88    199206
+weighted avg       0.99      0.99      0.99    199206
+","              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99     82620
+           1       0.85      0.69      0.76      2754
+
+    accuracy                           0.99     85374
+   macro avg       0.92      0.84      0.88     85374
+weighted avg       0.99      0.99      0.99     85374
+"
+voting_soft_2models_4f_full,"VotingClassifier(estimators=[('bag_tree',
+                              BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                                                 min_samples_leaf=10),
+                                                n_estimators=50)),
+                             ('bag_reglog',
+                              BaggingClassifier(estimator=LogisticRegression(C=0.1),
+                                                n_estimators=50)),
+                             ('bag_tree_log',
+                              BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                                                 max_depth=8,
+                                                                                 min_samples_leaf=10),
+                                                n_estimators=50)),
+                             ('bag_reglog1',
+                              BaggingClassifier(estimator=LogisticRegression(C=0.1),
+                                                n_estimators=50))],
+                 voting='soft')",4f_full,"{'estimators': [('bag_tree', BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50)), ('bag_reglog', BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50)), ('bag_tree_log', BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                   max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50)), ('bag_reglog1', BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50))], 'flatten_transform': True, 'n_jobs': None, 'verbose': False, 'voting': 'soft', 'weights': None, 'bag_tree': BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50), 'bag_reglog': BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50), 'bag_tree_log': BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                   max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50), 'bag_reglog1': BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50), 'bag_tree__base_estimator': 'deprecated', 'bag_tree__bootstrap': True, 'bag_tree__bootstrap_features': False, 'bag_tree__estimator__ccp_alpha': 0.0, 'bag_tree__estimator__class_weight': None, 'bag_tree__estimator__criterion': 'gini', 'bag_tree__estimator__max_depth': 8, 'bag_tree__estimator__max_features': None, 'bag_tree__estimator__max_leaf_nodes': None, 'bag_tree__estimator__min_impurity_decrease': 0.0, 'bag_tree__estimator__min_samples_leaf': 10, 'bag_tree__estimator__min_samples_split': 2, 'bag_tree__estimator__min_weight_fraction_leaf': 0.0, 'bag_tree__estimator__random_state': None, 'bag_tree__estimator__splitter': 'best', 'bag_tree__estimator': DecisionTreeClassifier(max_depth=8, min_samples_leaf=10), 'bag_tree__max_features': 1.0, 'bag_tree__max_samples': 1.0, 'bag_tree__n_estimators': 50, 'bag_tree__n_jobs': None, 'bag_tree__oob_score': False, 'bag_tree__random_state': None, 'bag_tree__verbose': 0, 'bag_tree__warm_start': False, 'bag_reglog__base_estimator': 'deprecated', 'bag_reglog__bootstrap': True, 'bag_reglog__bootstrap_features': False, 'bag_reglog__estimator__C': 0.1, 'bag_reglog__estimator__class_weight': None, 'bag_reglog__estimator__dual': False, 'bag_reglog__estimator__fit_intercept': True, 'bag_reglog__estimator__intercept_scaling': 1, 'bag_reglog__estimator__l1_ratio': None, 'bag_reglog__estimator__max_iter': 100, 'bag_reglog__estimator__multi_class': 'auto', 'bag_reglog__estimator__n_jobs': None, 'bag_reglog__estimator__penalty': 'l2', 'bag_reglog__estimator__random_state': None, 'bag_reglog__estimator__solver': 'lbfgs', 'bag_reglog__estimator__tol': 0.0001, 'bag_reglog__estimator__verbose': 0, 'bag_reglog__estimator__warm_start': False, 'bag_reglog__estimator': LogisticRegression(C=0.1), 'bag_reglog__max_features': 1.0, 'bag_reglog__max_samples': 1.0, 'bag_reglog__n_estimators': 50, 'bag_reglog__n_jobs': None, 'bag_reglog__oob_score': False, 'bag_reglog__random_state': None, 'bag_reglog__verbose': 0, 'bag_reglog__warm_start': False, 'bag_tree_log__base_estimator': 'deprecated', 'bag_tree_log__bootstrap': True, 'bag_tree_log__bootstrap_features': False, 'bag_tree_log__estimator__ccp_alpha': 0.0, 'bag_tree_log__estimator__class_weight': None, 'bag_tree_log__estimator__criterion': 'log_loss', 'bag_tree_log__estimator__max_depth': 8, 'bag_tree_log__estimator__max_features': None, 'bag_tree_log__estimator__max_leaf_nodes': None, 'bag_tree_log__estimator__min_impurity_decrease': 0.0, 'bag_tree_log__estimator__min_samples_leaf': 10, 'bag_tree_log__estimator__min_samples_split': 2, 'bag_tree_log__estimator__min_weight_fraction_leaf': 0.0, 'bag_tree_log__estimator__random_state': None, 'bag_tree_log__estimator__splitter': 'best', 'bag_tree_log__estimator': DecisionTreeClassifier(criterion='log_loss', max_depth=8, min_samples_leaf=10), 'bag_tree_log__max_features': 1.0, 'bag_tree_log__max_samples': 1.0, 'bag_tree_log__n_estimators': 50, 'bag_tree_log__n_jobs': None, 'bag_tree_log__oob_score': False, 'bag_tree_log__random_state': None, 'bag_tree_log__verbose': 0, 'bag_tree_log__warm_start': False, 'bag_reglog1__base_estimator': 'deprecated', 'bag_reglog1__bootstrap': True, 'bag_reglog1__bootstrap_features': False, 'bag_reglog1__estimator__C': 0.1, 'bag_reglog1__estimator__class_weight': None, 'bag_reglog1__estimator__dual': False, 'bag_reglog1__estimator__fit_intercept': True, 'bag_reglog1__estimator__intercept_scaling': 1, 'bag_reglog1__estimator__l1_ratio': None, 'bag_reglog1__estimator__max_iter': 100, 'bag_reglog1__estimator__multi_class': 'auto', 'bag_reglog1__estimator__n_jobs': None, 'bag_reglog1__estimator__penalty': 'l2', 'bag_reglog1__estimator__random_state': None, 'bag_reglog1__estimator__solver': 'lbfgs', 'bag_reglog1__estimator__tol': 0.0001, 'bag_reglog1__estimator__verbose': 0, 'bag_reglog1__estimator__warm_start': False, 'bag_reglog1__estimator': LogisticRegression(C=0.1), 'bag_reglog1__max_features': 1.0, 'bag_reglog1__max_samples': 1.0, 'bag_reglog1__n_estimators': 50, 'bag_reglog1__n_jobs': None, 'bag_reglog1__oob_score': False, 'bag_reglog1__random_state': None, 'bag_reglog1__verbose': 0, 'bag_reglog1__warm_start': False, 'percent_val': 0.3}",0.986456231238015,0.9855342375898986,[],[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7683722527472527,0.7526537152012818,82260,360,875,1879,192033,747,1951,4475,"              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99    192780
+           1       0.86      0.70      0.77      6426
+
+    accuracy                           0.99    199206
+   macro avg       0.92      0.85      0.88    199206
+weighted avg       0.99      0.99      0.99    199206
+","              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99     82620
+           1       0.84      0.68      0.75      2754
+
+    accuracy                           0.99     85374
+   macro avg       0.91      0.84      0.87     85374
+weighted avg       0.98      0.99      0.98     85374
+"
+stacking1_2models,"StackingClassifier(cv=3,
+                   estimators=[('bag_tree',
+                                BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                                                   min_samples_leaf=10),
+                                                  n_estimators=50)),
+                               ('bag_reglog',
+                                BaggingClassifier(estimator=LogisticRegression(C=0.1),
+                                                  n_estimators=50)),
+                               ('bag_tree_log',
+                                BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                                                   max_depth=8,
+                                                                                   min_samples_leaf=10),
+                                                  n_estimators=50)),
+                               ('bag_reglog1',
+                                BaggingClassifier(estimator=LogisticRegression(C=0.1),
+                                                  n_estimators=50))])",4f_full,"{'cv': 3, 'estimators': [('bag_tree', BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50)), ('bag_reglog', BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50)), ('bag_tree_log', BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                   max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50)), ('bag_reglog1', BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50))], 'final_estimator': None, 'n_jobs': None, 'passthrough': False, 'stack_method': 'auto', 'verbose': 0, 'bag_tree': BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50), 'bag_reglog': BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50), 'bag_tree_log': BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                   max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50), 'bag_reglog1': BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50), 'bag_tree__base_estimator': 'deprecated', 'bag_tree__bootstrap': True, 'bag_tree__bootstrap_features': False, 'bag_tree__estimator__ccp_alpha': 0.0, 'bag_tree__estimator__class_weight': None, 'bag_tree__estimator__criterion': 'gini', 'bag_tree__estimator__max_depth': 8, 'bag_tree__estimator__max_features': None, 'bag_tree__estimator__max_leaf_nodes': None, 'bag_tree__estimator__min_impurity_decrease': 0.0, 'bag_tree__estimator__min_samples_leaf': 10, 'bag_tree__estimator__min_samples_split': 2, 'bag_tree__estimator__min_weight_fraction_leaf': 0.0, 'bag_tree__estimator__random_state': None, 'bag_tree__estimator__splitter': 'best', 'bag_tree__estimator': DecisionTreeClassifier(max_depth=8, min_samples_leaf=10), 'bag_tree__max_features': 1.0, 'bag_tree__max_samples': 1.0, 'bag_tree__n_estimators': 50, 'bag_tree__n_jobs': None, 'bag_tree__oob_score': False, 'bag_tree__random_state': None, 'bag_tree__verbose': 0, 'bag_tree__warm_start': False, 'bag_reglog__base_estimator': 'deprecated', 'bag_reglog__bootstrap': True, 'bag_reglog__bootstrap_features': False, 'bag_reglog__estimator__C': 0.1, 'bag_reglog__estimator__class_weight': None, 'bag_reglog__estimator__dual': False, 'bag_reglog__estimator__fit_intercept': True, 'bag_reglog__estimator__intercept_scaling': 1, 'bag_reglog__estimator__l1_ratio': None, 'bag_reglog__estimator__max_iter': 100, 'bag_reglog__estimator__multi_class': 'auto', 'bag_reglog__estimator__n_jobs': None, 'bag_reglog__estimator__penalty': 'l2', 'bag_reglog__estimator__random_state': None, 'bag_reglog__estimator__solver': 'lbfgs', 'bag_reglog__estimator__tol': 0.0001, 'bag_reglog__estimator__verbose': 0, 'bag_reglog__estimator__warm_start': False, 'bag_reglog__estimator': LogisticRegression(C=0.1), 'bag_reglog__max_features': 1.0, 'bag_reglog__max_samples': 1.0, 'bag_reglog__n_estimators': 50, 'bag_reglog__n_jobs': None, 'bag_reglog__oob_score': False, 'bag_reglog__random_state': None, 'bag_reglog__verbose': 0, 'bag_reglog__warm_start': False, 'bag_tree_log__base_estimator': 'deprecated', 'bag_tree_log__bootstrap': True, 'bag_tree_log__bootstrap_features': False, 'bag_tree_log__estimator__ccp_alpha': 0.0, 'bag_tree_log__estimator__class_weight': None, 'bag_tree_log__estimator__criterion': 'log_loss', 'bag_tree_log__estimator__max_depth': 8, 'bag_tree_log__estimator__max_features': None, 'bag_tree_log__estimator__max_leaf_nodes': None, 'bag_tree_log__estimator__min_impurity_decrease': 0.0, 'bag_tree_log__estimator__min_samples_leaf': 10, 'bag_tree_log__estimator__min_samples_split': 2, 'bag_tree_log__estimator__min_weight_fraction_leaf': 0.0, 'bag_tree_log__estimator__random_state': None, 'bag_tree_log__estimator__splitter': 'best', 'bag_tree_log__estimator': DecisionTreeClassifier(criterion='log_loss', max_depth=8, min_samples_leaf=10), 'bag_tree_log__max_features': 1.0, 'bag_tree_log__max_samples': 1.0, 'bag_tree_log__n_estimators': 50, 'bag_tree_log__n_jobs': None, 'bag_tree_log__oob_score': False, 'bag_tree_log__random_state': None, 'bag_tree_log__verbose': 0, 'bag_tree_log__warm_start': False, 'bag_reglog1__base_estimator': 'deprecated', 'bag_reglog1__bootstrap': True, 'bag_reglog1__bootstrap_features': False, 'bag_reglog1__estimator__C': 0.1, 'bag_reglog1__estimator__class_weight': None, 'bag_reglog1__estimator__dual': False, 'bag_reglog1__estimator__fit_intercept': True, 'bag_reglog1__estimator__intercept_scaling': 1, 'bag_reglog1__estimator__l1_ratio': None, 'bag_reglog1__estimator__max_iter': 100, 'bag_reglog1__estimator__multi_class': 'auto', 'bag_reglog1__estimator__n_jobs': None, 'bag_reglog1__estimator__penalty': 'l2', 'bag_reglog1__estimator__random_state': None, 'bag_reglog1__estimator__solver': 'lbfgs', 'bag_reglog1__estimator__tol': 0.0001, 'bag_reglog1__estimator__verbose': 0, 'bag_reglog1__estimator__warm_start': False, 'bag_reglog1__estimator': LogisticRegression(C=0.1), 'bag_reglog1__max_features': 1.0, 'bag_reglog1__max_samples': 1.0, 'bag_reglog1__n_estimators': 50, 'bag_reglog1__n_jobs': None, 'bag_reglog1__oob_score': False, 'bag_reglog1__random_state': None, 'bag_reglog1__verbose': 0, 'bag_reglog1__warm_start': False, 'percent_val': 0.3}",0.9861399757035432,0.985897345796144,[],[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7581252737625932,0.7559789217673287,82305,315,889,1865,192118,662,2099,4327,"              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99    192780
+           1       0.87      0.67      0.76      6426
+
+    accuracy                           0.99    199206
+   macro avg       0.93      0.83      0.88    199206
+weighted avg       0.99      0.99      0.99    199206
+","              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99     82620
+           1       0.86      0.68      0.76      2754
+
+    accuracy                           0.99     85374
+   macro avg       0.92      0.84      0.87     85374
+weighted avg       0.98      0.99      0.99     85374
+"
+bag_reglog1_full,"BaggingClassifier(estimator=LogisticRegression(C=1), n_estimators=50)",full,"{'base_estimator': 'deprecated', 'bootstrap': True, 'bootstrap_features': False, 'estimator__C': 1, 'estimator__class_weight': None, 'estimator__dual': False, 'estimator__fit_intercept': True, 'estimator__intercept_scaling': 1, 'estimator__l1_ratio': None, 'estimator__max_iter': 100, 'estimator__multi_class': 'auto', 'estimator__n_jobs': None, 'estimator__penalty': 'l2', 'estimator__random_state': None, 'estimator__solver': 'lbfgs', 'estimator__tol': 0.0001, 'estimator__verbose': 0, 'estimator__warm_start': False, 'estimator': LogisticRegression(C=1), 'max_features': 1.0, 'max_samples': 1.0, 'n_estimators': 50, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False, 'percent_val': 0.3}",0.9863759123721172,0.9859207721320308,[],[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7661554368430122,0.7588282504012841,82281,339,863,1891,192046,734,1980,4446,"              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99    192780
+           1       0.86      0.69      0.77      6426
+
+    accuracy                           0.99    199206
+   macro avg       0.92      0.84      0.88    199206
+weighted avg       0.99      0.99      0.99    199206
+","              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99     82620
+           1       0.85      0.69      0.76      2754
+
+    accuracy                           0.99     85374
+   macro avg       0.92      0.84      0.88     85374
+weighted avg       0.99      0.99      0.99     85374
+"
+voting_soft_2models_full,"VotingClassifier(estimators=[('bag_tree',
+                              BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                                                 min_samples_leaf=10),
+                                                n_estimators=50)),
+                             ('bag_reglog',
+                              BaggingClassifier(estimator=LogisticRegression(C=0.1),
+                                                n_estimators=50)),
+                             ('bag_tree_log',
+                              BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                                                 max_depth=8,
+                                                                                 min_samples_leaf=10),
+                                                n_estimators=50)),
+                             ('bag_reglog1',
+                              BaggingClassifier(estimator=LogisticRegression(C=0.1),
+                                                n_estimators=50))],
+                 voting='soft')",full,"{'estimators': [('bag_tree', BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50)), ('bag_reglog', BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50)), ('bag_tree_log', BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                   max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50)), ('bag_reglog1', BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50))], 'flatten_transform': True, 'n_jobs': None, 'verbose': False, 'voting': 'soft', 'weights': None, 'bag_tree': BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50), 'bag_reglog': BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50), 'bag_tree_log': BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                   max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50), 'bag_reglog1': BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50), 'bag_tree__base_estimator': 'deprecated', 'bag_tree__bootstrap': True, 'bag_tree__bootstrap_features': False, 'bag_tree__estimator__ccp_alpha': 0.0, 'bag_tree__estimator__class_weight': None, 'bag_tree__estimator__criterion': 'gini', 'bag_tree__estimator__max_depth': 8, 'bag_tree__estimator__max_features': None, 'bag_tree__estimator__max_leaf_nodes': None, 'bag_tree__estimator__min_impurity_decrease': 0.0, 'bag_tree__estimator__min_samples_leaf': 10, 'bag_tree__estimator__min_samples_split': 2, 'bag_tree__estimator__min_weight_fraction_leaf': 0.0, 'bag_tree__estimator__random_state': None, 'bag_tree__estimator__splitter': 'best', 'bag_tree__estimator': DecisionTreeClassifier(max_depth=8, min_samples_leaf=10), 'bag_tree__max_features': 1.0, 'bag_tree__max_samples': 1.0, 'bag_tree__n_estimators': 50, 'bag_tree__n_jobs': None, 'bag_tree__oob_score': False, 'bag_tree__random_state': None, 'bag_tree__verbose': 0, 'bag_tree__warm_start': False, 'bag_reglog__base_estimator': 'deprecated', 'bag_reglog__bootstrap': True, 'bag_reglog__bootstrap_features': False, 'bag_reglog__estimator__C': 0.1, 'bag_reglog__estimator__class_weight': None, 'bag_reglog__estimator__dual': False, 'bag_reglog__estimator__fit_intercept': True, 'bag_reglog__estimator__intercept_scaling': 1, 'bag_reglog__estimator__l1_ratio': None, 'bag_reglog__estimator__max_iter': 100, 'bag_reglog__estimator__multi_class': 'auto', 'bag_reglog__estimator__n_jobs': None, 'bag_reglog__estimator__penalty': 'l2', 'bag_reglog__estimator__random_state': None, 'bag_reglog__estimator__solver': 'lbfgs', 'bag_reglog__estimator__tol': 0.0001, 'bag_reglog__estimator__verbose': 0, 'bag_reglog__estimator__warm_start': False, 'bag_reglog__estimator': LogisticRegression(C=0.1), 'bag_reglog__max_features': 1.0, 'bag_reglog__max_samples': 1.0, 'bag_reglog__n_estimators': 50, 'bag_reglog__n_jobs': None, 'bag_reglog__oob_score': False, 'bag_reglog__random_state': None, 'bag_reglog__verbose': 0, 'bag_reglog__warm_start': False, 'bag_tree_log__base_estimator': 'deprecated', 'bag_tree_log__bootstrap': True, 'bag_tree_log__bootstrap_features': False, 'bag_tree_log__estimator__ccp_alpha': 0.0, 'bag_tree_log__estimator__class_weight': None, 'bag_tree_log__estimator__criterion': 'log_loss', 'bag_tree_log__estimator__max_depth': 8, 'bag_tree_log__estimator__max_features': None, 'bag_tree_log__estimator__max_leaf_nodes': None, 'bag_tree_log__estimator__min_impurity_decrease': 0.0, 'bag_tree_log__estimator__min_samples_leaf': 10, 'bag_tree_log__estimator__min_samples_split': 2, 'bag_tree_log__estimator__min_weight_fraction_leaf': 0.0, 'bag_tree_log__estimator__random_state': None, 'bag_tree_log__estimator__splitter': 'best', 'bag_tree_log__estimator': DecisionTreeClassifier(criterion='log_loss', max_depth=8, min_samples_leaf=10), 'bag_tree_log__max_features': 1.0, 'bag_tree_log__max_samples': 1.0, 'bag_tree_log__n_estimators': 50, 'bag_tree_log__n_jobs': None, 'bag_tree_log__oob_score': False, 'bag_tree_log__random_state': None, 'bag_tree_log__verbose': 0, 'bag_tree_log__warm_start': False, 'bag_reglog1__base_estimator': 'deprecated', 'bag_reglog1__bootstrap': True, 'bag_reglog1__bootstrap_features': False, 'bag_reglog1__estimator__C': 0.1, 'bag_reglog1__estimator__class_weight': None, 'bag_reglog1__estimator__dual': False, 'bag_reglog1__estimator__fit_intercept': True, 'bag_reglog1__estimator__intercept_scaling': 1, 'bag_reglog1__estimator__l1_ratio': None, 'bag_reglog1__estimator__max_iter': 100, 'bag_reglog1__estimator__multi_class': 'auto', 'bag_reglog1__estimator__n_jobs': None, 'bag_reglog1__estimator__penalty': 'l2', 'bag_reglog1__estimator__random_state': None, 'bag_reglog1__estimator__solver': 'lbfgs', 'bag_reglog1__estimator__tol': 0.0001, 'bag_reglog1__estimator__verbose': 0, 'bag_reglog1__estimator__warm_start': False, 'bag_reglog1__estimator': LogisticRegression(C=0.1), 'bag_reglog1__max_features': 1.0, 'bag_reglog1__max_samples': 1.0, 'bag_reglog1__n_estimators': 50, 'bag_reglog1__n_jobs': None, 'bag_reglog1__oob_score': False, 'bag_reglog1__random_state': None, 'bag_reglog1__verbose': 0, 'bag_reglog1__warm_start': False, 'percent_val': 0.3}",0.9864913707418452,0.985545950757842,[],[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7680772214082565,0.7520096463022508,82269,351,883,1871,192059,721,1970,4456,"              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99    192780
+           1       0.86      0.69      0.77      6426
+
+    accuracy                           0.99    199206
+   macro avg       0.93      0.84      0.88    199206
+weighted avg       0.99      0.99      0.99    199206
+","              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99     82620
+           1       0.84      0.68      0.75      2754
+
+    accuracy                           0.99     85374
+   macro avg       0.92      0.84      0.87     85374
+weighted avg       0.98      0.99      0.98     85374
+"
+stacking1_2models,"StackingClassifier(cv=3,
+                   estimators=[('bag_tree',
+                                BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                                                   min_samples_leaf=10),
+                                                  n_estimators=50)),
+                               ('bag_reglog',
+                                BaggingClassifier(estimator=LogisticRegression(C=0.1),
+                                                  n_estimators=50)),
+                               ('bag_tree_log',
+                                BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                                                   max_depth=8,
+                                                                                   min_samples_leaf=10),
+                                                  n_estimators=50)),
+                               ('bag_reglog1',
+                                BaggingClassifier(estimator=LogisticRegression(C=0.1),
+                                                  n_estimators=50))])",full,"{'cv': 3, 'estimators': [('bag_tree', BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50)), ('bag_reglog', BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50)), ('bag_tree_log', BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                   max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50)), ('bag_reglog1', BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50))], 'final_estimator': None, 'n_jobs': None, 'passthrough': False, 'stack_method': 'auto', 'verbose': 0, 'bag_tree': BaggingClassifier(estimator=DecisionTreeClassifier(max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50), 'bag_reglog': BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50), 'bag_tree_log': BaggingClassifier(estimator=DecisionTreeClassifier(criterion='log_loss',
+                                                   max_depth=8,
+                                                   min_samples_leaf=10),
+                  n_estimators=50), 'bag_reglog1': BaggingClassifier(estimator=LogisticRegression(C=0.1), n_estimators=50), 'bag_tree__base_estimator': 'deprecated', 'bag_tree__bootstrap': True, 'bag_tree__bootstrap_features': False, 'bag_tree__estimator__ccp_alpha': 0.0, 'bag_tree__estimator__class_weight': None, 'bag_tree__estimator__criterion': 'gini', 'bag_tree__estimator__max_depth': 8, 'bag_tree__estimator__max_features': None, 'bag_tree__estimator__max_leaf_nodes': None, 'bag_tree__estimator__min_impurity_decrease': 0.0, 'bag_tree__estimator__min_samples_leaf': 10, 'bag_tree__estimator__min_samples_split': 2, 'bag_tree__estimator__min_weight_fraction_leaf': 0.0, 'bag_tree__estimator__random_state': None, 'bag_tree__estimator__splitter': 'best', 'bag_tree__estimator': DecisionTreeClassifier(max_depth=8, min_samples_leaf=10), 'bag_tree__max_features': 1.0, 'bag_tree__max_samples': 1.0, 'bag_tree__n_estimators': 50, 'bag_tree__n_jobs': None, 'bag_tree__oob_score': False, 'bag_tree__random_state': None, 'bag_tree__verbose': 0, 'bag_tree__warm_start': False, 'bag_reglog__base_estimator': 'deprecated', 'bag_reglog__bootstrap': True, 'bag_reglog__bootstrap_features': False, 'bag_reglog__estimator__C': 0.1, 'bag_reglog__estimator__class_weight': None, 'bag_reglog__estimator__dual': False, 'bag_reglog__estimator__fit_intercept': True, 'bag_reglog__estimator__intercept_scaling': 1, 'bag_reglog__estimator__l1_ratio': None, 'bag_reglog__estimator__max_iter': 100, 'bag_reglog__estimator__multi_class': 'auto', 'bag_reglog__estimator__n_jobs': None, 'bag_reglog__estimator__penalty': 'l2', 'bag_reglog__estimator__random_state': None, 'bag_reglog__estimator__solver': 'lbfgs', 'bag_reglog__estimator__tol': 0.0001, 'bag_reglog__estimator__verbose': 0, 'bag_reglog__estimator__warm_start': False, 'bag_reglog__estimator': LogisticRegression(C=0.1), 'bag_reglog__max_features': 1.0, 'bag_reglog__max_samples': 1.0, 'bag_reglog__n_estimators': 50, 'bag_reglog__n_jobs': None, 'bag_reglog__oob_score': False, 'bag_reglog__random_state': None, 'bag_reglog__verbose': 0, 'bag_reglog__warm_start': False, 'bag_tree_log__base_estimator': 'deprecated', 'bag_tree_log__bootstrap': True, 'bag_tree_log__bootstrap_features': False, 'bag_tree_log__estimator__ccp_alpha': 0.0, 'bag_tree_log__estimator__class_weight': None, 'bag_tree_log__estimator__criterion': 'log_loss', 'bag_tree_log__estimator__max_depth': 8, 'bag_tree_log__estimator__max_features': None, 'bag_tree_log__estimator__max_leaf_nodes': None, 'bag_tree_log__estimator__min_impurity_decrease': 0.0, 'bag_tree_log__estimator__min_samples_leaf': 10, 'bag_tree_log__estimator__min_samples_split': 2, 'bag_tree_log__estimator__min_weight_fraction_leaf': 0.0, 'bag_tree_log__estimator__random_state': None, 'bag_tree_log__estimator__splitter': 'best', 'bag_tree_log__estimator': DecisionTreeClassifier(criterion='log_loss', max_depth=8, min_samples_leaf=10), 'bag_tree_log__max_features': 1.0, 'bag_tree_log__max_samples': 1.0, 'bag_tree_log__n_estimators': 50, 'bag_tree_log__n_jobs': None, 'bag_tree_log__oob_score': False, 'bag_tree_log__random_state': None, 'bag_tree_log__verbose': 0, 'bag_tree_log__warm_start': False, 'bag_reglog1__base_estimator': 'deprecated', 'bag_reglog1__bootstrap': True, 'bag_reglog1__bootstrap_features': False, 'bag_reglog1__estimator__C': 0.1, 'bag_reglog1__estimator__class_weight': None, 'bag_reglog1__estimator__dual': False, 'bag_reglog1__estimator__fit_intercept': True, 'bag_reglog1__estimator__intercept_scaling': 1, 'bag_reglog1__estimator__l1_ratio': None, 'bag_reglog1__estimator__max_iter': 100, 'bag_reglog1__estimator__multi_class': 'auto', 'bag_reglog1__estimator__n_jobs': None, 'bag_reglog1__estimator__penalty': 'l2', 'bag_reglog1__estimator__random_state': None, 'bag_reglog1__estimator__solver': 'lbfgs', 'bag_reglog1__estimator__tol': 0.0001, 'bag_reglog1__estimator__verbose': 0, 'bag_reglog1__estimator__warm_start': False, 'bag_reglog1__estimator': LogisticRegression(C=0.1), 'bag_reglog1__max_features': 1.0, 'bag_reglog1__max_samples': 1.0, 'bag_reglog1__n_estimators': 50, 'bag_reglog1__n_jobs': None, 'bag_reglog1__oob_score': False, 'bag_reglog1__random_state': None, 'bag_reglog1__verbose': 0, 'bag_reglog1__warm_start': False, 'percent_val': 0.3}",0.986165075349136,0.9859441984679176,[],[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7593853675571853,0.7573797007682976,82301,319,881,1873,192101,679,2077,4349,"              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99    192780
+           1       0.86      0.68      0.76      6426
+
+    accuracy                           0.99    199206
+   macro avg       0.93      0.84      0.88    199206
+weighted avg       0.99      0.99      0.99    199206
+","              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99     82620
+           1       0.85      0.68      0.76      2754
+
+    accuracy                           0.99     85374
+   macro avg       0.92      0.84      0.88     85374
+weighted avg       0.99      0.99      0.99     85374
 "
