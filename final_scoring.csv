@@ -17,114 +17,6 @@ weighted avg       0.99      0.99      0.99    227664
    macro avg       0.92      0.84      0.87     56916
 weighted avg       0.98      0.99      0.99     56916
 "
-reglog_country,LogisticRegression(),country,"{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}",0.98633073301005,0.9857685009487666,"[array([-0.59420066,  2.54863047,  3.57655197,  3.42683365,  3.05515897,
-       -1.68787329, -0.19732157, -0.044345  ])]",[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7654507084715104,0.7554347826086957,54855,225,585,1251,219474,846,2266,5078,"              precision    recall  f1-score   support
-
-           0       0.99      1.00      0.99    220320
-           1       0.86      0.69      0.77      7344
-
-    accuracy                           0.99    227664
-   macro avg       0.92      0.84      0.88    227664
-weighted avg       0.99      0.99      0.99    227664
-","              precision    recall  f1-score   support
-
-           0       0.99      1.00      0.99     55080
-           1       0.85      0.68      0.76      1836
-
-    accuracy                           0.99     56916
-   macro avg       0.92      0.84      0.87     56916
-weighted avg       0.98      0.99      0.99     56916
-"
-reglog_age,LogisticRegression(),age,"{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}",0.98633073301005,0.9857685009487666,"[array([-0.59420066,  2.54863047,  3.57655197,  3.42683365,  3.05515897,
-       -1.68787329, -0.19732157, -0.044345  ])]",[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7654507084715104,0.7554347826086957,54855,225,585,1251,219474,846,2266,5078,"              precision    recall  f1-score   support
-
-           0       0.99      1.00      0.99    220320
-           1       0.86      0.69      0.77      7344
-
-    accuracy                           0.99    227664
-   macro avg       0.92      0.84      0.88    227664
-weighted avg       0.99      0.99      0.99    227664
-","              precision    recall  f1-score   support
-
-           0       0.99      1.00      0.99     55080
-           1       0.85      0.68      0.76      1836
-
-    accuracy                           0.99     56916
-   macro avg       0.92      0.84      0.87     56916
-weighted avg       0.98      0.99      0.99     56916
-"
-reglog_new_user,LogisticRegression(),new_user,"{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}",0.98633073301005,0.9857685009487666,"[array([-0.59420066,  2.54863047,  3.57655197,  3.42683365,  3.05515897,
-       -1.68787329, -0.19732157, -0.044345  ])]",[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7654507084715104,0.7554347826086957,54855,225,585,1251,219474,846,2266,5078,"              precision    recall  f1-score   support
-
-           0       0.99      1.00      0.99    220320
-           1       0.86      0.69      0.77      7344
-
-    accuracy                           0.99    227664
-   macro avg       0.92      0.84      0.88    227664
-weighted avg       0.99      0.99      0.99    227664
-","              precision    recall  f1-score   support
-
-           0       0.99      1.00      0.99     55080
-           1       0.85      0.68      0.76      1836
-
-    accuracy                           0.99     56916
-   macro avg       0.92      0.84      0.87     56916
-weighted avg       0.98      0.99      0.99     56916
-"
-reglog_source,LogisticRegression(),source,"{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}",0.98633073301005,0.9857685009487666,"[array([-0.59420066,  2.54863047,  3.57655197,  3.42683365,  3.05515897,
-       -1.68787329, -0.19732157, -0.044345  ])]",[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7654507084715104,0.7554347826086957,54855,225,585,1251,219474,846,2266,5078,"              precision    recall  f1-score   support
-
-           0       0.99      1.00      0.99    220320
-           1       0.86      0.69      0.77      7344
-
-    accuracy                           0.99    227664
-   macro avg       0.92      0.84      0.88    227664
-weighted avg       0.99      0.99      0.99    227664
-","              precision    recall  f1-score   support
-
-           0       0.99      1.00      0.99     55080
-           1       0.85      0.68      0.76      1836
-
-    accuracy                           0.99     56916
-   macro avg       0.92      0.84      0.87     56916
-weighted avg       0.98      0.99      0.99     56916
-"
-reglog_total_pages_visited,LogisticRegression(),total_pages_visited,"{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}",0.98633073301005,0.9857685009487666,"[array([-0.59420066,  2.54863047,  3.57655197,  3.42683365,  3.05515897,
-       -1.68787329, -0.19732157, -0.044345  ])]",[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7654507084715104,0.7554347826086957,54855,225,585,1251,219474,846,2266,5078,"              precision    recall  f1-score   support
-
-           0       0.99      1.00      0.99    220320
-           1       0.86      0.69      0.77      7344
-
-    accuracy                           0.99    227664
-   macro avg       0.92      0.84      0.88    227664
-weighted avg       0.99      0.99      0.99    227664
-","              precision    recall  f1-score   support
-
-           0       0.99      1.00      0.99     55080
-           1       0.85      0.68      0.76      1836
-
-    accuracy                           0.99     56916
-   macro avg       0.92      0.84      0.87     56916
-weighted avg       0.98      0.99      0.99     56916
-"
-reglog_converted,LogisticRegression(),converted,"{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}",0.98633073301005,0.9857685009487666,"[array([-0.59420066,  2.54863047,  3.57655197,  3.42683365,  3.05515897,
-       -1.68787329, -0.19732157, -0.044345  ])]",[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7654507084715104,0.7554347826086957,54855,225,585,1251,219474,846,2266,5078,"              precision    recall  f1-score   support
-
-           0       0.99      1.00      0.99    220320
-           1       0.86      0.69      0.77      7344
-
-    accuracy                           0.99    227664
-   macro avg       0.92      0.84      0.88    227664
-weighted avg       0.99      0.99      0.99    227664
-","              precision    recall  f1-score   support
-
-           0       0.99      1.00      0.99     55080
-           1       0.85      0.68      0.76      1836
-
-    accuracy                           0.99     56916
-   macro avg       0.92      0.84      0.87     56916
-weighted avg       0.98      0.99      0.99     56916
-"
 reglog_gs,LogisticRegression(C=0.1),full,"{'C': 0.1, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}",0.9863175556961136,0.9856279429334458,"[array([-0.5864657 ,  2.51598049,  2.66063539,  2.61220643,  2.27109111,
        -1.64775298, -0.18833803, -0.03945265])]",[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7643899856289237,0.7524213075060533,54855,225,593,1243,219496,824,2291,5053,"              precision    recall  f1-score   support
 
@@ -1454,6 +1346,114 @@ weighted avg       0.99      0.99      0.99    199206
 
            0       0.99      1.00      0.99     82620
            1       0.85      0.68      0.76      2754
+
+    accuracy                           0.99     85374
+   macro avg       0.92      0.84      0.88     85374
+weighted avg       0.99      0.99      0.99     85374
+"
+reglog_country,LogisticRegression(C=1),1col,"{'C': 1, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False, 'percent_val': 0.3}",0.9863759123721173,0.9859207721320308,"[array([-0.5936974 ,  2.53619193,  3.54553348,  3.39920686,  3.04871846,
+       -1.69073067, -0.17479621, -0.02885005])]",[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7661151327128577,0.7587314331593739,82282,338,864,1890,192047,733,1981,4445,"              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99    192780
+           1       0.86      0.69      0.77      6426
+
+    accuracy                           0.99    199206
+   macro avg       0.92      0.84      0.88    199206
+weighted avg       0.99      0.99      0.99    199206
+","              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99     82620
+           1       0.85      0.69      0.76      2754
+
+    accuracy                           0.99     85374
+   macro avg       0.92      0.84      0.88     85374
+weighted avg       0.99      0.99      0.99     85374
+"
+reglog_age,LogisticRegression(C=1),1col,"{'C': 1, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False, 'percent_val': 0.3}",0.9863759123721173,0.9859207721320308,"[array([-0.5936974 ,  2.53619193,  3.54553348,  3.39920686,  3.04871846,
+       -1.69073067, -0.17479621, -0.02885005])]",[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7661151327128577,0.7587314331593739,82282,338,864,1890,192047,733,1981,4445,"              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99    192780
+           1       0.86      0.69      0.77      6426
+
+    accuracy                           0.99    199206
+   macro avg       0.92      0.84      0.88    199206
+weighted avg       0.99      0.99      0.99    199206
+","              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99     82620
+           1       0.85      0.69      0.76      2754
+
+    accuracy                           0.99     85374
+   macro avg       0.92      0.84      0.88     85374
+weighted avg       0.99      0.99      0.99     85374
+"
+reglog_new_user,LogisticRegression(C=1),1col,"{'C': 1, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False, 'percent_val': 0.3}",0.9863759123721173,0.9859207721320308,"[array([-0.5936974 ,  2.53619193,  3.54553348,  3.39920686,  3.04871846,
+       -1.69073067, -0.17479621, -0.02885005])]",[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7661151327128577,0.7587314331593739,82282,338,864,1890,192047,733,1981,4445,"              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99    192780
+           1       0.86      0.69      0.77      6426
+
+    accuracy                           0.99    199206
+   macro avg       0.92      0.84      0.88    199206
+weighted avg       0.99      0.99      0.99    199206
+","              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99     82620
+           1       0.85      0.69      0.76      2754
+
+    accuracy                           0.99     85374
+   macro avg       0.92      0.84      0.88     85374
+weighted avg       0.99      0.99      0.99     85374
+"
+reglog_source,LogisticRegression(C=1),1col,"{'C': 1, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False, 'percent_val': 0.3}",0.9863759123721173,0.9859207721320308,"[array([-0.5936974 ,  2.53619193,  3.54553348,  3.39920686,  3.04871846,
+       -1.69073067, -0.17479621, -0.02885005])]",[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7661151327128577,0.7587314331593739,82282,338,864,1890,192047,733,1981,4445,"              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99    192780
+           1       0.86      0.69      0.77      6426
+
+    accuracy                           0.99    199206
+   macro avg       0.92      0.84      0.88    199206
+weighted avg       0.99      0.99      0.99    199206
+","              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99     82620
+           1       0.85      0.69      0.76      2754
+
+    accuracy                           0.99     85374
+   macro avg       0.92      0.84      0.88     85374
+weighted avg       0.99      0.99      0.99     85374
+"
+reglog_total_pages_visited,LogisticRegression(C=1),1col,"{'C': 1, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False, 'percent_val': 0.3}",0.9863759123721173,0.9859207721320308,"[array([-0.5936974 ,  2.53619193,  3.54553348,  3.39920686,  3.04871846,
+       -1.69073067, -0.17479621, -0.02885005])]",[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7661151327128577,0.7587314331593739,82282,338,864,1890,192047,733,1981,4445,"              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99    192780
+           1       0.86      0.69      0.77      6426
+
+    accuracy                           0.99    199206
+   macro avg       0.92      0.84      0.88    199206
+weighted avg       0.99      0.99      0.99    199206
+","              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99     82620
+           1       0.85      0.69      0.76      2754
+
+    accuracy                           0.99     85374
+   macro avg       0.92      0.84      0.88     85374
+weighted avg       0.99      0.99      0.99     85374
+"
+reglog_converted,LogisticRegression(C=1),1col,"{'C': 1, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False, 'percent_val': 0.3}",0.9863759123721173,0.9859207721320308,"[array([-0.5936974 ,  2.53619193,  3.54553348,  3.39920686,  3.04871846,
+       -1.69073067, -0.17479621, -0.02885005])]",[0 0 0 ... 0 0 0],[0 0 0 ... 0 0 0],0.7661151327128577,0.7587314331593739,82282,338,864,1890,192047,733,1981,4445,"              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99    192780
+           1       0.86      0.69      0.77      6426
+
+    accuracy                           0.99    199206
+   macro avg       0.92      0.84      0.88    199206
+weighted avg       0.99      0.99      0.99    199206
+","              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99     82620
+           1       0.85      0.69      0.76      2754
 
     accuracy                           0.99     85374
    macro avg       0.92      0.84      0.88     85374
