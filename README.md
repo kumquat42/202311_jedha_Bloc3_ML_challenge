@@ -16,9 +16,9 @@ Plots: Various plots from EDA and Machine Learning
 |iframe_figures : test for plot saving for a web server displaying purpose.  
 Test_Prediction_Jedha: Blind test prediction propose by Jedha for testing the model  
 |conversion_data.text.csv: test data  
-|conversion _data_train.csv: training data  
 |conversion_data_test_predictions_BERAUD_MELANIE_dfs27.csv: Results from home made model  
 
+conversion _data_train.csv: training data  
 data_sample.csv: Sample of 1000 data used to train the models.
 final_scoring.csv : Scores' comparison for various models tested  
 
